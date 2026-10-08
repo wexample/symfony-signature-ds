@@ -1,0 +1,8 @@
+{%- extends '@WexampleSymfonyLoaderBundle/bases/form.html.twig' -%}
+
+{% block form_body %}
+    {%- if form.use_personal is defined -%}{{ form_row(form.use_personal) }}{%- endif -%}
+    {%- if form.image is defined -%}{{ form_row(form.image) }}{%- endif -%}
+    {%- if form.agree is defined -%}{{ form_row(form.agree) }}{%- endif -%}
+    {{ form_actions(form) }}
+{% endblock %}

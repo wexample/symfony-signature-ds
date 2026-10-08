@@ -1,0 +1,19 @@
+en:
+  page_title: Verify a file
+  page_icon: ph:bold/seal-check
+  intro: Is this file one that was signed, unchanged? It is hashed on arrival and looked for by its bytes, whatever its name; nothing of it is kept.
+  none: No signed document has exactly these bytes — changed, or never signed.
+  found: "Signed, unchanged, in %count% envelope(s)."
+  hidden: An envelope you are not part of
+  name: Signed as
+  sealed: Sealed on
+
+fr:
+  page_title: Vérifier un fichier
+  page_icon: ph:bold/seal-check
+  intro: Ce fichier est-il un document signé, inchangé ? Il est haché à son arrivée et cherché par son contenu, quel que soit son nom ; rien n'en est gardé.
+  none: Aucun document signé n'a exactement ce contenu — modifié, ou jamais signé.
+  found: "Signé, inchangé, dans %count% enveloppe(s)."
+  hidden: Une enveloppe dont vous ne faites pas partie
+  name: Signé sous le nom
+  sealed: Scellée le

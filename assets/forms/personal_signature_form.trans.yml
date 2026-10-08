@@ -1,0 +1,17 @@
+en:
+  field:
+    image:
+      label: My signature
+  action:
+    submit: Keep this signature
+  success:
+    message: Signature kept.
+
+fr:
+  field:
+    image:
+      label: Ma signature
+  action:
+    submit: Garder cette signature
+  success:
+    message: Signature enregistrée.

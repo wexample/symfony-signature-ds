@@ -1,0 +1,23 @@
+en:
+  field:
+    title:
+      label: Title
+    documents:
+      label: Documents
+    ordered:
+      label: Signers sign in order
+      help: Each one is asked once the one before has signed.
+  action:
+    submit: Create the envelope
+
+fr:
+  field:
+    title:
+      label: Titre
+    documents:
+      label: Documents
+    ordered:
+      label: Les signataires signent dans l'ordre
+      help: Chacun est sollicité une fois que le précédent a signé.
+  action:
+    submit: Créer l'enveloppe

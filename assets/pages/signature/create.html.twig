@@ -1,0 +1,16 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+{%- import '@WexampleSymfonySignatureDsBundle/pages/signature/_macros.html.twig' as signature -%}
+
+{%- set page_show_title = true -%}
+
+{#- A new envelope: its title and documents; its signers come next, on its page. -#}
+{%- block page_body -%}
+    {{ signature.tabs() }}
+
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            <p class="text-secondary">{{ '@page::intro' | trans }}</p>
+            {{ form_load(render_pass, envelope_create_form, '@WexampleSymfonySignatureDsBundle/forms/envelope_create_form.html.twig') }}
+        </div>
+    </section>
+{%- endblock -%}

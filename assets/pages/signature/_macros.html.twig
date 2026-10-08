@@ -1,0 +1,26 @@
+{#- The state of an envelope, and of a signer, as a marker. -#}
+{%- macro envelope_status(status) -%}
+    {%- set levels = { draft: 'neutral', pending: 'info', completed: 'success', declined: 'danger', cancelled: 'warning', expired: 'warning' } -%}
+    {{ marker(levels[status] ?? 'neutral', ('WexampleSymfonySignatureDsBundle.pages.signature.index::status.' ~ status) | trans, { compact: true }) }}
+{%- endmacro -%}
+
+{%- macro signer_status(signer) -%}
+    {%- if signer.status == 'signed' -%}
+        {{ marker('success', 'WexampleSymfonySignatureDsBundle.pages.signature.index::signer.signed' | trans, { compact: true }) }}
+    {%- elseif signer.status == 'declined' -%}
+        {{ marker('danger', 'WexampleSymfonySignatureDsBundle.pages.signature.index::signer.declined' | trans, { compact: true }) }}
+    {%- elseif signer.awaited -%}
+        {{ marker('info', 'WexampleSymfonySignatureDsBundle.pages.signature.index::signer.awaited' | trans, { compact: true }) }}
+    {%- else -%}
+        {{ marker('neutral', 'WexampleSymfonySignatureDsBundle.pages.signature.index::signer.waiting' | trans, { compact: true }) }}
+    {%- endif -%}
+{%- endmacro -%}
+
+{#- The pages of signature, as tabs. -#}
+{%- macro tabs(actions = null) -%}
+    {{ page_tabs([
+        { label: 'WexampleSymfonySignatureDsBundle.pages.signature.index::tab.envelopes' | trans, route: 'signature_index', icon: 'ph:bold/envelope-simple' },
+        { label: 'WexampleSymfonySignatureDsBundle.pages.signature.index::tab.verify' | trans, route: 'signature_verify', icon: 'ph:bold/seal-check' },
+        { label: 'WexampleSymfonySignatureDsBundle.pages.signature.index::tab.personal' | trans, route: 'signature_personal', icon: 'ph:bold/signature' },
+    ], { back: false, actions: actions }) }}
+{%- endmacro -%}

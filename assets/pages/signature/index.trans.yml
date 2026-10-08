@@ -1,0 +1,63 @@
+en:
+  page_title: Signatures
+  page_icon: ph:bold/signature
+  create: New envelope
+  tab:
+    envelopes: Envelopes
+    verify: Verify a file
+    personal: My signature
+  to_sign:
+    title: To sign
+    empty: Nothing awaits your signature.
+  sent:
+    title: Sent
+    empty: You have sent no envelope.
+  column:
+    envelope: Envelope
+    status: State
+    signed: Signed
+    date: Created
+  status:
+    draft: Draft
+    pending: Awaiting signatures
+    completed: Signed by all
+    declined: Declined
+    cancelled: Cancelled
+    expired: Expired
+  signer:
+    signed: Signed
+    declined: Declined
+    awaited: Awaited
+    waiting: Waits for its turn
+
+fr:
+  page_title: Signatures
+  page_icon: ph:bold/signature
+  create: Nouvelle enveloppe
+  tab:
+    envelopes: Enveloppes
+    verify: Vérifier un fichier
+    personal: Ma signature
+  to_sign:
+    title: À signer
+    empty: Rien n'attend votre signature.
+  sent:
+    title: Envoyées
+    empty: Vous n'avez envoyé aucune enveloppe.
+  column:
+    envelope: Enveloppe
+    status: État
+    signed: Signées
+    date: Créée
+  status:
+    draft: Brouillon
+    pending: En attente de signatures
+    completed: Signée par tous
+    declined: Refusée
+    cancelled: Annulée
+    expired: Expirée
+  signer:
+    signed: A signé
+    declined: A refusé
+    awaited: Attendu
+    waiting: Attend son tour

@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonySignatureDs\Controller\:
+        resource: '../../Controller/'
+        tags: ['controller.service_arguments']
+
+    Wexample\SymfonySignatureDs\:
+        resource: '../../{Form,Service}'
+        exclude:
+            - '../../Service/FormProcessor/Abstract*.php'

@@ -1,0 +1,59 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+{%- import '@WexampleSymfonySignatureDsBundle/pages/signature/_macros.html.twig' as signature -%}
+
+{%- set page_show_title = true -%}
+
+{#- Where a signer reads the documents, then signs or declines — signed in,
+    or through its signed link. -#}
+{%- block page_body -%}
+    <p class="lead">{{ '@page::intro' | trans({ '%title%': envelope.title }) }}</p>
+
+    {%- if signer.status == 'signed' -%}
+        {{ message_success('@page::signed' | trans) }}
+    {%- elseif signer.status == 'declined' -%}
+        {{ message_warning('@page::declined' | trans) }}
+    {%- elseif not awaited -%}
+        {{ message_info((envelope.status == 'pending' ? '@page::not_yet' : '@page::closed') | trans) }}
+    {%- endif -%}
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/files') }}</span>
+            <span class="block--title-label">{{ '@page::documents' | trans }}</span>
+        </div>
+        <div class="block--body">
+            <div class="list-expanded">
+                <div class="list-expanded--items">
+                    {%- for document in documents -%}
+                        {{ bar(document.name, { icon: file_icon(document.name), subtitle: document.size | file_bytes, href: document.url, class: 'list-expanded--item' }) }}
+                    {%- endfor -%}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {%- if envelope_sign_form -%}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/pen-nib') }}</span>
+            <span class="block--title-label">{{ '@page::sign' | trans }}</span>
+        </div>
+        <div class="block--body stack--vertical">
+            {%- if personal_image -%}
+                {{ content_image(path('media_thumbnail', { id: personal_image.id, width: 480 }), '@page::my_signature' | trans, { caption: '@page::my_signature' | trans }) }}
+            {%- endif -%}
+            {{ form_load(render_pass, envelope_sign_form, '@WexampleSymfonySignatureDsBundle/forms/envelope_sign_form.html.twig') }}
+        </div>
+    </section>
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/hand-palm') }}</span>
+            <span class="block--title-label">{{ '@page::decline' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {{ form_load(render_pass, envelope_decline_form, '@WexampleSymfonySignatureDsBundle/forms/envelope_decline_form.html.twig') }}
+        </div>
+    </section>
+    {%- endif -%}
+{%- endblock -%}

@@ -1,0 +1,25 @@
+en:
+  page_title: Signature
+  page_icon: ph:bold/pen-nib
+  intro: "Your signature is asked for: %title%. Read the documents, then sign or decline."
+  signed: You signed. Thank you.
+  declined: You declined to sign.
+  not_yet: The signers before you have not signed yet; you will be told when it is your turn.
+  closed: This envelope no longer waits for signatures.
+  documents: Documents
+  sign: Sign
+  decline: Decline
+  my_signature: My signature
+
+fr:
+  page_title: Signature
+  page_icon: ph:bold/pen-nib
+  intro: "Votre signature est demandée : %title%. Lisez les documents, puis signez ou refusez."
+  signed: Vous avez signé. Merci.
+  declined: Vous avez refusé de signer.
+  not_yet: Les signataires avant vous n'ont pas encore signé ; vous serez prévenu quand ce sera votre tour.
+  closed: Cette enveloppe n'attend plus de signature.
+  documents: Documents
+  sign: Signer
+  decline: Refuser
+  my_signature: Ma signature

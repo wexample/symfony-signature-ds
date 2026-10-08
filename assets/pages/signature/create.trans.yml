@@ -1,0 +1,9 @@
+en:
+  page_title: New envelope
+  page_icon: ph:bold/envelope-simple
+  intro: An envelope is what is signed together. Pick its documents in the media library; you add its signers next, then seal it — its content is frozen from then on.
+
+fr:
+  page_title: Nouvelle enveloppe
+  page_icon: ph:bold/envelope-simple
+  intro: Une enveloppe, c'est ce qui se signe ensemble. Choisissez ses documents dans la médiathèque ; vous ajoutez ensuite ses signataires, puis vous la scellez — son contenu est alors figé.

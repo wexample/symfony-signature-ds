@@ -1,0 +1,60 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+{%- import '@WexampleSymfonySignatureDsBundle/pages/signature/_macros.html.twig' as signature -%}
+
+{%- set page_show_title = true -%}
+
+{#- What awaits the account's signature, then what it sent. -#}
+{%- block page_body -%}
+    {{ signature.tabs([{ icon: 'ph:bold/plus', label: '@page::create' | trans, href: path('signature_create') }]) }}
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/pen-nib') }}</span>
+            <span class="block--title-label">{{ '@page::to_sign.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {%- if to_sign is empty -%}
+                <div class="empty">{{ '@page::to_sign.empty' | trans }}</div>
+            {%- else -%}
+                {%- set rows = [] -%}
+                {%- for signer in to_sign -%}
+                    {%- set title_cell -%}<a class="text-link" href="{{ path('signature_sign', { signer: signer.id }) }}">{{ signer.envelope_title }}</a>{%- endset -%}
+                    {%- set rows = rows | merge([{ title: title_cell, status: signature.signer_status(signer) }]) -%}
+                {%- endfor -%}
+                {{ data_table([
+                    { key: 'title', label: '@page::column.envelope' | trans, cell: 'html' },
+                    { key: 'status', label: '@page::column.status' | trans, cell: 'html', class: 'table--cell--nowrap' },
+                ], rows) }}
+            {%- endif -%}
+        </div>
+    </section>
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/paper-plane-tilt') }}</span>
+            <span class="block--title-label">{{ '@page::sent.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {%- if sent is empty -%}
+                <div class="empty">{{ '@page::sent.empty' | trans }}</div>
+            {%- else -%}
+                {%- set rows = [] -%}
+                {%- for envelope in sent -%}
+                    {%- set title_cell -%}<a class="text-link" href="{{ path('signature_envelope', { id: envelope.id }) }}">{{ envelope.title }}</a>{%- endset -%}
+                    {%- set rows = rows | merge([{
+                        title: title_cell,
+                        signed: envelope.signed_count ~ ' / ' ~ envelope.signers_count,
+                        status: signature.envelope_status(envelope.status),
+                        date: date_display(envelope.date_created, 'date_short'),
+                    }]) -%}
+                {%- endfor -%}
+                {{ data_table([
+                    { key: 'title', label: '@page::column.envelope' | trans, cell: 'html' },
+                    { key: 'signed', label: '@page::column.signed' | trans, class: 'table--cell--nowrap' },
+                    { key: 'status', label: '@page::column.status' | trans, cell: 'html', class: 'table--cell--nowrap' },
+                    { key: 'date', label: '@page::column.date' | trans, cell: 'html', class: 'table--cell--nowrap' },
+                ], rows) }}
+            {%- endif -%}
+        </div>
+    </section>
+{%- endblock -%}

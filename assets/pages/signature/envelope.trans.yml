@@ -1,0 +1,81 @@
+en:
+  page_title: Envelope
+  page_icon: ph:bold/envelope-simple
+  action:
+    seal: Seal and send
+    seal_confirm: Sealed, its documents and signers no longer change, and the signers are asked to sign.
+    cancel: Cancel
+    cancel_confirm: The signers will no longer be able to sign it.
+    proof: Download the proof
+  done:
+    sealed: Sealed. The signers are asked to sign.
+    cancelled: Cancelled.
+    signer_removed: Signer removed.
+  field:
+    title: Title
+    status: State
+    order: Order
+    sealed: Sealed
+    fingerprint: Fingerprint (SHA-256 of what is signed)
+  order:
+    ordered: One after the other
+    any: Any order
+  documents:
+    title: Documents
+    name: Document
+  signers:
+    title: Signers
+    empty: No signer yet. Add one below.
+    who: Signer
+    kind: Signs
+    outside: through a link sent by mail
+    account: signed in
+    when: Signed on
+    timestamped: Timestamped by an authority
+    sign: Sign
+    remove: Remove
+  verification:
+    title: Verification
+    valid: Everything checks — each document is the file sealed, each signature is in the chain.
+    invalid: Something no longer checks — a document or a signature changed since. Download the proof for the detail.
+
+fr:
+  page_title: Enveloppe
+  page_icon: ph:bold/envelope-simple
+  action:
+    seal: Sceller et envoyer
+    seal_confirm: Scellée, ses documents et ses signataires ne changent plus, et les signataires sont invités à signer.
+    cancel: Annuler
+    cancel_confirm: Les signataires ne pourront plus la signer.
+    proof: Télécharger la preuve
+  done:
+    sealed: Scellée. Les signataires sont invités à signer.
+    cancelled: Annulée.
+    signer_removed: Signataire retiré.
+  field:
+    title: Titre
+    status: État
+    order: Ordre
+    sealed: Scellée le
+    fingerprint: Empreinte (SHA-256 de ce qui est signé)
+  order:
+    ordered: L'un après l'autre
+    any: Dans n'importe quel ordre
+  documents:
+    title: Documents
+    name: Document
+  signers:
+    title: Signataires
+    empty: Aucun signataire pour l'instant. Ajoutez-en un ci-dessous.
+    who: Signataire
+    kind: Signe
+    outside: par un lien envoyé par mail
+    account: connecté
+    when: Signé le
+    timestamped: Horodaté par une autorité
+    sign: Signer
+    remove: Retirer
+  verification:
+    title: Vérification
+    valid: Tout concorde — chaque document est le fichier scellé, chaque signature est dans la chaîne.
+    invalid: Quelque chose ne concorde plus — un document ou une signature a changé depuis. Téléchargez la preuve pour le détail.

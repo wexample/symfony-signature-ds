@@ -1,0 +1,11 @@
+en:
+  page_title: My signature
+  page_icon: ph:bold/signature
+  intro: The image you sign with by default. Upload it to your media library, crop it there, then pick it here.
+  current: My current signature
+
+fr:
+  page_title: Ma signature
+  page_icon: ph:bold/signature
+  intro: L'image avec laquelle vous signez par défaut. Déposez-la dans votre médiathèque, recadrez-la là, puis choisissez-la ici.
+  current: Ma signature actuelle

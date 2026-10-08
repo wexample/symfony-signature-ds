@@ -1,0 +1,13 @@
+en:
+  field:
+    file:
+      label: A file
+  action:
+    submit: Look for it
+
+fr:
+  field:
+    file:
+      label: Un fichier
+  action:
+    submit: Le chercher

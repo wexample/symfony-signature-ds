@@ -1,0 +1,50 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+{%- import '@WexampleSymfonySignatureDsBundle/pages/signature/_macros.html.twig' as signature -%}
+
+{%- set page_show_title = true -%}
+
+{#- A file, looked for by its bytes among the documents signed. -#}
+{%- block page_body -%}
+    {%- if app.user -%}{{ signature.tabs() }}{%- endif -%}
+
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            <p class="text-secondary">{{ '@page::intro' | trans }}</p>
+            {{ form_load(render_pass, signature_verify_form, '@WexampleSymfonySignatureDsBundle/forms/signature_verify_form.html.twig') }}
+        </div>
+    </section>
+
+    {%- if found is not null -%}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/magnifying-glass') }}</span>
+            <span class="block--title-label">{{ sha256 }}</span>
+        </div>
+        <div class="block--body">
+            {%- if found is empty -%}
+                {{ message_warning('@page::none' | trans) }}
+            {%- else -%}
+                {{ message_success('@page::found' | trans({ '%count%': found | length })) }}
+                {%- set rows = [] -%}
+                {%- for item in found -%}
+                    {%- set title_cell -%}
+                        {%- if item.visible -%}<a class="text-link" href="{{ path('signature_envelope', { id: item.envelope.id }) }}">{{ item.envelope.title }}</a>{%- else -%}{{ '@page::hidden' | trans }}{%- endif -%}
+                    {%- endset -%}
+                    {%- set rows = rows | merge([{
+                        title: title_cell,
+                        name: item.name,
+                        status: signature.envelope_status(item.envelope.status),
+                        sealed: item.envelope.date_sealed ? date_display(item.envelope.date_sealed, 'date_time_short') : '—',
+                    }]) -%}
+                {%- endfor -%}
+                {{ data_table([
+                    { key: 'title', label: 'WexampleSymfonySignatureDsBundle.pages.signature.index::column.envelope' | trans, cell: 'html' },
+                    { key: 'name', label: '@page::name' | trans },
+                    { key: 'status', label: 'WexampleSymfonySignatureDsBundle.pages.signature.index::column.status' | trans, cell: 'html' },
+                    { key: 'sealed', label: '@page::sealed' | trans, cell: 'html' },
+                ], rows) }}
+            {%- endif -%}
+        </div>
+    </section>
+    {%- endif -%}
+{%- endblock -%}

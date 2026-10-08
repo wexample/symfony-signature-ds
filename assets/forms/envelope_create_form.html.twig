@@ -1,0 +1,8 @@
+{%- extends '@WexampleSymfonyLoaderBundle/bases/form.html.twig' -%}
+
+{% block form_body %}
+    {%- if form.title is defined -%}{{ form_row(form.title) }}{%- endif -%}
+    {%- if form.documents is defined -%}{{ form_row(form.documents) }}{%- endif -%}
+    {%- if form.ordered is defined -%}{{ form_row(form.ordered) }}{%- endif -%}
+    {{ form_actions(form) }}
+{% endblock %}

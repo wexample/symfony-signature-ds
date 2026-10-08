@@ -1,0 +1,121 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+{%- import '@WexampleSymfonySignatureDsBundle/pages/signature/_macros.html.twig' as signature -%}
+
+{%- set page_show_title = true -%}
+
+{#- One envelope: where it stands, its documents, its signers, and what its
+    sender can do — add signers and seal it while a draft, cancel it while
+    pending. Once sealed, its verification and its proof. -#}
+{%- block page_body -%}
+    {%- set token = csrf_token(csrf_token_id) -%}
+    {%- set actions = [] -%}
+    {%- if owner and draft -%}
+        {%- set actions = actions | merge([{ icon: 'ph:bold/seal', label: '@page::action.seal' | trans, href: path('signature_envelope_seal', { id: envelope.id }), method: 'post', token: token, confirm: { message: '@page::action.seal_confirm' | trans } }]) -%}
+    {%- endif -%}
+    {%- if owner and envelope.status in ['draft', 'pending'] -%}
+        {%- set actions = actions | merge([{ icon: 'ph:bold/x-circle', label: '@page::action.cancel' | trans, href: path('signature_envelope_cancel', { id: envelope.id }), method: 'post', token: token, confirm: { message: '@page::action.cancel_confirm' | trans } }]) -%}
+    {%- endif -%}
+    {%- if not draft -%}
+        {%- set actions = actions | merge([{ icon: 'ph:bold/download-simple', label: '@page::action.proof' | trans, href: path('signature_envelope_proof', { id: envelope.id }) }]) -%}
+    {%- endif -%}
+    {{ signature.tabs(actions ?: null) }}
+
+    {%- if app.request.query.get('done') -%}
+        {{ message_success(('@page::done.' ~ app.request.query.get('done')) | trans) }}
+    {%- endif -%}
+    {%- if app.request.query.get('refused') -%}
+        {{ message_warning(('WexampleSymfonySignatureDsBundle.forms.envelope_signer_form::error.refused.' ~ app.request.query.get('refused')) | trans) }}
+    {%- endif -%}
+
+    <section class="block block--padded">
+        {{ properties([
+            { key: '@page::field.title' | trans, value: envelope.title },
+            { key: '@page::field.status' | trans, value: signature.envelope_status(envelope.status), html: true },
+            { key: '@page::field.order' | trans, value: (envelope.ordered ? '@page::order.ordered' : '@page::order.any') | trans },
+            { key: '@page::field.sealed' | trans, value: envelope.date_sealed ? date_display(envelope.date_sealed, 'date_time_short') : '—', html: true },
+            { key: '@page::field.fingerprint' | trans, value: envelope.fingerprint ?? '—' },
+        ], { columns: true }) }}
+    </section>
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/files') }}</span>
+            <span class="block--title-label">{{ '@page::documents.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {%- set rows = [] -%}
+            {%- for document in documents -%}
+                {%- set rows = rows | merge([{ name: document.name, sha256: document.sha256 ?? '—' }]) -%}
+            {%- endfor -%}
+            {{ data_table([
+                { key: 'name', label: '@page::documents.name' | trans },
+                { key: 'sha256', label: 'SHA-256', secondary: true },
+            ], rows) }}
+        </div>
+    </section>
+
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/users') }}</span>
+            <span class="block--title-label">{{ '@page::signers.title' | trans }}</span>
+        </div>
+        <div class="block--body stack--vertical">
+            {%- if signers is empty -%}
+                <div class="empty">{{ '@page::signers.empty' | trans }}</div>
+            {%- else -%}
+                {%- set rows = [] -%}
+                {%- for signer in signers -%}
+                    {%- set who -%}{{ signer.name }} <span class="text-secondary">{{ signer.email }} · {{ (signer.outside ? '@page::signers.outside' : '@page::signers.account') | trans }}</span>{%- endset -%}
+                    {%- set when -%}
+                        {%- if signer.date_signed -%}{{ date_display(signer.date_signed, 'date_time_short') }}{%- else -%}—{%- endif -%}
+                        {%- if signer.timestamped %} {{ led('success', null, { title: '@page::signers.timestamped' | trans }) }}{%- endif -%}
+                    {%- endset -%}
+                    {%- set actions_cell -%}
+                        {%- if signer.mine and signer.awaited -%}
+                            {{ button_link('ph:bold/pen-nib', '@page::signers.sign' | trans, path('signature_sign', { signer: signer.id }), { class: 'button--flat' }) }}
+                        {%- elseif owner and draft -%}
+                            <form method="post" action="{{ path('signature_envelope_signer_remove', { id: envelope.id, signer: signer.id }) }}">
+                                <input type="hidden" name="_token" value="{{ token }}">
+                                {{ button('ph:bold/trash', '@page::signers.remove' | trans, { type: 'submit', class: 'button--flat' }) }}
+                            </form>
+                        {%- endif -%}
+                    {%- endset -%}
+                    {%- set rows = rows | merge([{
+                        position: signer.position,
+                        who: who,
+                        status: signature.signer_status(signer),
+                        when: when,
+                        actions: actions_cell,
+                    }]) -%}
+                {%- endfor -%}
+                {{ data_table([
+                    { key: 'position', label: '#', class: 'table--cell--nowrap' },
+                    { key: 'who', label: '@page::signers.who' | trans, cell: 'html' },
+                    { key: 'status', label: 'WexampleSymfonySignatureDsBundle.pages.signature.index::column.status' | trans, cell: 'html', class: 'table--cell--nowrap' },
+                    { key: 'when', label: '@page::signers.when' | trans, cell: 'html', class: 'table--cell--nowrap' },
+                    { key: 'actions', label: '', cell: 'html', class: 'table--cell--nowrap' },
+                ], rows) }}
+            {%- endif -%}
+
+            {%- if envelope_signer_form -%}
+                {{ form_load(render_pass, envelope_signer_form, '@WexampleSymfonySignatureDsBundle/forms/envelope_signer_form.html.twig') }}
+            {%- endif -%}
+        </div>
+    </section>
+
+    {%- if verification -%}
+    <section class="block block--card">
+        <div class="block--title">
+            <span class="block--title-leading">{{ icon('ph:bold/seal-check') }}</span>
+            <span class="block--title-label">{{ '@page::verification.title' | trans }}</span>
+        </div>
+        <div class="block--body">
+            {%- if verification.valid -%}
+                {{ message_success('@page::verification.valid' | trans) }}
+            {%- else -%}
+                {{ message_error('@page::verification.invalid' | trans) }}
+            {%- endif -%}
+        </div>
+    </section>
+    {%- endif -%}
+{%- endblock -%}

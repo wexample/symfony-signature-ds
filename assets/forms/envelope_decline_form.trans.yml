@@ -1,0 +1,31 @@
+en:
+  field:
+    reason:
+      label: Why (told to the sender)
+  action:
+    submit: Decline to sign
+  error:
+    refused:
+      not_a_draft: "This envelope is sealed: it no longer changes."
+      incomplete: An envelope is sealed with at least one document and one signer.
+      not_pending: This envelope no longer waits for signatures.
+      already_done: You have signed or declined already.
+      not_your_turn: The signers before you have not signed yet.
+      tampered: A document changed since the envelope was sealed. Nothing was signed.
+      duplicate_signer: This address signs already.
+
+fr:
+  field:
+    reason:
+      label: Pourquoi (dit à l'expéditeur)
+  action:
+    submit: Refuser de signer
+  error:
+    refused:
+      not_a_draft: "Cette enveloppe est scellée : elle ne change plus."
+      incomplete: Une enveloppe se scelle avec au moins un document et un signataire.
+      not_pending: Cette enveloppe n'attend plus de signature.
+      already_done: Vous avez déjà signé ou refusé.
+      not_your_turn: Les signataires avant vous n'ont pas encore signé.
+      tampered: Un document a changé depuis le scellement. Rien n'a été signé.
+      duplicate_signer: Cette adresse signe déjà.

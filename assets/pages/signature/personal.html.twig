@@ -1,0 +1,19 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+{%- import '@WexampleSymfonySignatureDsBundle/pages/signature/_macros.html.twig' as signature -%}
+
+{%- set page_show_title = true -%}
+
+{#- The image the account signs with by default, picked in its media library. -#}
+{%- block page_body -%}
+    {{ signature.tabs() }}
+
+    <section class="block block--card">
+        <div class="block--body stack--vertical">
+            <p class="text-secondary">{{ '@page::intro' | trans }}</p>
+            {%- if image -%}
+                {{ content_image(path('media_thumbnail', { id: image.id, width: 480 }), '@page::current' | trans, { caption: '@page::current' | trans }) }}
+            {%- endif -%}
+            {{ form_load(render_pass, personal_signature_form, '@WexampleSymfonySignatureDsBundle/forms/personal_signature_form.html.twig') }}
+        </div>
+    </section>
+{%- endblock -%}

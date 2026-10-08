@@ -1,0 +1,18 @@
+// What the signature pages are laid with: cards, their tabs and actions,
+// tables of envelopes and signers, their states as markers, messages, and
+// the image a signature was made with.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/lead';
+@use '@wexample/symfony-design-system/css/shapes/stack';
+@use '@wexample/symfony-design-system/css/shapes/cluster';
+@use '@wexample/symfony-design-system/css/shapes/empty';
+@use '@wexample/symfony-design-system/components/page-tabs/page-tabs';
+@use '@wexample/symfony-design-system/components/button/button';
+@use '@wexample/symfony-design-system/components/message/message';
+@use '@wexample/symfony-design-system/components/properties/properties';
+@use '@wexample/symfony-design-system/components/marker/marker';
+@use '@wexample/symfony-design-system/components/date-display/date-display';
+@use '@wexample/symfony-design-system/components/data-table/data-table';
+@use '@wexample/symfony-design-system/components/list-expanded/list-expanded';
+@use '@wexample/symfony-design-system/components/bar/bar';
+@use '@wexample/symfony-design-system/components/led/led';
