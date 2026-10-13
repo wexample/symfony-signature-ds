@@ -1,6 +1,6 @@
 # symfony-signature-ds
 
-Version: 2.0.0
+Version: 2.0.1
 
 Design-system screens for symfony-signature: composing an envelope, signing it — signed in or through a signed link —, following it, verifying a file, and one's own signature
 
@@ -28,7 +28,7 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 - php: >=8.5
 - wexample/symfony-signature: >=2.0.0
 - wexample/symfony-media-ds: >=2.0.0
-- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-design-system: >=35.0.0
 - wexample/symfony-forms: >=12.0.0
 - wexample/symfony-helpers: >=16.0.0
 - wexample/symfony-loader: >=23.0.0
