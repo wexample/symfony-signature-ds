@@ -1,10 +1,13 @@
 # symfony-signature-ds
 
-Version: 1.0.1
+Version: 2.0.0
+
+Design-system screens for symfony-signature: composing an envelope, signing it — signed in or through a signed link —, following it, verifying a file, and one's own signature
 
 ## Table of Contents
 
 - [Integration in the Suite](#integration-in-the-suite)
+- [Dependencies](#dependencies)
 - [Versioning & Compatibility Policy](#versioning--compatibility-policy)
 - [License](#license)
 - [About us](#about-us)
@@ -19,6 +22,16 @@ This package is part of the Wexample Suite — a collection of high-quality, mod
 The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
 
 Visit the [Wexample Suite documentation](https://docs.wexample.com) for the complete package ecosystem.
+
+## Dependencies
+
+- php: >=8.5
+- wexample/symfony-signature: >=2.0.0
+- wexample/symfony-media-ds: >=2.0.0
+- wexample/symfony-design-system: >=34.0.0
+- wexample/symfony-forms: >=12.0.0
+- wexample/symfony-helpers: >=16.0.0
+- wexample/symfony-loader: >=23.0.0
 
 ## Versioning & Compatibility Policy
 

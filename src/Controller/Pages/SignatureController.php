@@ -30,7 +30,6 @@ use Wexample\SymfonySignature\Service\EnvelopeService;
 use Wexample\SymfonySignature\Service\EnvelopeVerifier;
 use Wexample\SymfonySignature\Service\PersonalSignatureService;
 use Wexample\SymfonySignature\Service\SignatureKeyService;
-use Wexample\SymfonySignature\Service\SignerAccessService;
 use Wexample\SymfonySignatureDs\Service\EnvelopeAccessService;
 use Wexample\SymfonySignatureDs\Service\FormProcessor\EnvelopeCreateFormProcessor;
 use Wexample\SymfonySignatureDs\Service\FormProcessor\EnvelopeDeclineFormProcessor;
