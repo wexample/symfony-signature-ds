@@ -33,3 +33,243 @@ zh:
       help: 每个人在前一个人签署后才会被请求签名。
   action:
     submit: 创建信封
+
+ar:
+  field:
+    title:
+      label: العنوان
+    documents:
+      label: المستندات
+    ordered:
+      label: 'الموقعون يوقعون بالترتيب'
+      help: 'يُطلب من كل واحد بعد أن يوقع الذي قبله.'
+  action:
+    submit: 'إنشاء الظرف'
+
+hi:
+  field:
+    title:
+      label: शीर्षक
+    documents:
+      label: दस्तावेज़
+    ordered:
+      label: 'हस्ताक्षरकर्ता क्रम से हस्ताक्षर करते हैं'
+      help: 'हर एक को तब पूछा जाता है जब पिछले ने हस्ताक्षर कर दिए हों।'
+  action:
+    submit: 'लिफाफा बनाएं'
+
+he:
+  field:
+    title:
+      label: כותרת
+    documents:
+      label: מסמכים
+    ordered:
+      label: 'החתימות בסדר'
+      help: 'כל אחד מתבקש לחתום לאחר שהקודם סיים לחתום.'
+  action:
+    submit: 'צור את המעטפה'
+
+fa:
+  field:
+    title:
+      label: عنوان
+    documents:
+      label: اسناد
+    ordered:
+      label: 'امضا کنندگان به ترتیب امضا می‌کنند'
+      help: 'هر یک پس از امضای نفر قبلی از آنها خواسته می‌شود.'
+  action:
+    submit: 'ایجاد پاکت'
+
+ur:
+  field:
+    title:
+      label: عنوان
+    documents:
+      label: دستاویزات
+    ordered:
+      label: 'دستخط کرنے والے ترتیب میں دستخط کرتے ہیں'
+      help: 'ہر ایک کو ایک بار پوچھا جاتا ہے جب پچھلے نے دستخط کر لیے ہوں۔'
+  action:
+    submit: 'لفافہ بنائیں'
+
+ja:
+  field:
+    title:
+      label: タイトル
+    documents:
+      label: ドキュメント
+    ordered:
+      label: 署名者は順番に署名します
+      help: 前の署名者が署名した後に次の署名者に求められます。
+  action:
+    submit: 封筒を作成する
+
+ko:
+  field:
+    title:
+      label: 제목
+    documents:
+      label: 문서
+    ordered:
+      label: '서명자는 순서대로 서명합니다'
+      help: '앞서 서명한 후에 각자가 요청받습니다.'
+  action:
+    submit: '봉투 생성'
+
+bn:
+  field:
+    title:
+      label: শিরোনাম
+    documents:
+      label: ডকুমেন্টস
+    ordered:
+      label: 'স্বাক্ষরকারী স্বাক্ষর করেন ক্রমে'
+      help: 'প্রত্যেককে একবার জিজ্ঞাসা করা হয় যখন পূর্ববর্তী স্বাক্ষর করেছেন।'
+  action:
+    submit: 'এনভেলপ তৈরি করুন'
+
+th:
+  field:
+    title:
+      label: ชื่อเรื่อง
+    documents:
+      label: เอกสาร
+    ordered:
+      label: ผู้ลงนามลงนามตามลำดับ
+      help: แต่ละคนจะถูกถามเมื่อคนก่อนหน้านี้ได้ลงนามแล้ว
+  action:
+    submit: สร้างซอง
+
+de:
+  field:
+    title:
+      label: Titel
+    documents:
+      label: Dokumente
+    ordered:
+      label: 'Unterzeichner unterschreiben der Reihe nach'
+      help: 'Jeder wird gefragt, sobald der vorherige unterschrieben hat.'
+  action:
+    submit: 'Briefumschlag erstellen'
+
+fi:
+  field:
+    title:
+      label: Otsikko
+    documents:
+      label: Asiakirjat
+    ordered:
+      label: 'Allekirjoittajat allekirjoittavat järjestyksessä'
+      help: 'Jokaiselta kysytään, kun edellinen on allekirjoittanut.'
+  action:
+    submit: 'Luo kuori'
+
+ru:
+  field:
+    title:
+      label: Заголовок
+    documents:
+      label: Документы
+    ordered:
+      label: 'Подписанты подписывают по очереди'
+      help: 'Каждого спрашивают, когда предыдущий подписал.'
+  action:
+    submit: 'Создать конверт'
+
+pl:
+  field:
+    title:
+      label: Tytuł
+    documents:
+      label: Dokumenty
+    ordered:
+      label: 'Podpisujący podpisują w kolejności'
+      help: 'Każdy jest pytany, gdy poprzedni podpisał.'
+  action:
+    submit: 'Utwórz kopertę'
+
+es:
+  field:
+    title:
+      label: Título
+    documents:
+      label: Documentos
+    ordered:
+      label: 'Los firmantes firman en orden'
+      help: 'Cada uno es solicitado una vez que el anterior ha firmado.'
+  action:
+    submit: 'Crear el sobre'
+
+it:
+  field:
+    title:
+      label: Titolo
+    documents:
+      label: Documenti
+    ordered:
+      label: 'I firmatari firmano in ordine'
+      help: 'Ognuno viene richiesto una volta che quello precedente ha firmato.'
+  action:
+    submit: 'Crea la busta'
+
+pt_BR:
+  field:
+    title:
+      label: Título
+    documents:
+      label: Documentos
+    ordered:
+      label: 'Signatários assinam em ordem'
+      help: 'Cada um é solicitado assim que o anterior tiver assinado.'
+  action:
+    submit: 'Criar o envelope'
+
+tr:
+  field:
+    title:
+      label: Başlık
+    documents:
+      label: Belgeler
+    ordered:
+      label: 'İmzalar sırayla atılır'
+      help: 'Her biri, öncekini imzaladıktan sonra bir kez sorulur.'
+  action:
+    submit: 'Zarfı oluştur'
+
+vi:
+  field:
+    title:
+      label: 'Tiêu đề'
+    documents:
+      label: 'Tài liệu'
+    ordered:
+      label: 'Người ký theo thứ tự'
+      help: 'Mỗi người sẽ được yêu cầu ký sau khi người trước đó đã ký.'
+  action:
+    submit: 'Tạo phong bì'
+
+id:
+  field:
+    title:
+      label: Judul
+    documents:
+      label: Dokumen
+    ordered:
+      label: 'Penandatangan menandatangani secara berurutan'
+      help: 'Setiap orang diminta setelah orang sebelumnya menandatangani.'
+  action:
+    submit: 'Buat amplop'
+
+nl:
+  field:
+    title:
+      label: Titel
+    documents:
+      label: Documenten
+    ordered:
+      label: 'Ondertekenaars ondertekenen in volgorde'
+      help: 'Iedereen wordt gevraagd zodra degene voor hen heeft ondertekend.'
+  action:
+    submit: 'Maak de envelop aan'

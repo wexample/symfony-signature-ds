@@ -15,3 +15,123 @@ zh:
   page_icon: 'ph:bold/signature'
   intro: 您默认使用的签名图像。将其上传到您的媒体库，在那里裁剪，然后在这里选择。
   current: 我当前的签名
+
+ar:
+  page_title: توقيعي
+  page_icon: 'ph:bold/signature'
+  intro: 'الصورة التي توقّع بها بشكل افتراضي. قم بتحميلها إلى مكتبة الوسائط الخاصة بك، وقم بقصها هناك، ثم اخترها هنا.'
+  current: 'توقيعي الحالي'
+
+hi:
+  page_title: 'मेरी हस्ताक्षर'
+  page_icon: 'ph:bold/signature'
+  intro: 'यह वह छवि है जिसे आप डिफ़ॉल्ट रूप से हस्ताक्षर करते हैं। इसे अपने मीडिया पुस्तकालय में अपलोड करें, वहां से काटें, फिर इसे यहां चुनें।'
+  current: 'मेरा वर्तमान हस्ताक्षर'
+
+he:
+  page_title: 'החתימה שלי'
+  page_icon: 'ph:bold/signature'
+  intro: 'התמונה שאתה חותם איתה כברירת מחדל. העלה אותה לספריית המדיה שלך, חתוך אותה שם, ואז בחר אותה כאן.'
+  current: 'החתימה הנוכחית שלי'
+
+fa:
+  page_title: 'امضای من'
+  page_icon: 'ph:bold/signature'
+  intro: 'تصویری که به طور پیش‌فرض با آن امضا می‌کنید. آن را به کتابخانه رسانه‌ای خود بارگذاری کنید، در آنجا برش دهید، سپس آن را اینجا انتخاب کنید.'
+  current: 'امضای فعلی من'
+
+ur:
+  page_title: 'میرا دستخط'
+  page_icon: 'ph:bold/signature'
+  intro: 'یہ تصویر ہے جس سے آپ بطور ڈیفالٹ دستخط کرتے ہیں۔ اسے اپنی میڈیا لائبریری میں اپ لوڈ کریں، وہاں کاٹیں، پھر یہاں منتخب کریں۔'
+  current: 'میرا موجودہ دستخط'
+
+ja:
+  page_title: 私の署名
+  page_icon: 'ph:bold/signature'
+  intro: デフォルトで使用する署名画像です。メディアライブラリにアップロードし、そこでトリミングしてから、ここで選択してください。
+  current: 私の現在の署名
+
+ko:
+  page_title: '내 서명'
+  page_icon: 'ph:bold/signature'
+  intro: '기본적으로 서명하는 이미지입니다. 미디어 라이브러리에 업로드하고, 거기서 자른 후, 여기에서 선택하세요.'
+  current: '내 현재 서명'
+
+bn:
+  page_title: 'আমার স্বাক্ষর'
+  page_icon: 'ph:bold/signature'
+  intro: 'ডিফল্টভাবে আপনি যে ছবিটি স্বাক্ষর করেন। এটি আপনার মিডিয়া লাইব্রেরিতে আপলোড করুন, সেখানে কেটে নিন, তারপর এখানে নির্বাচন করুন।'
+  current: 'আমার বর্তমান স্বাক্ষর'
+
+th:
+  page_title: ลายเซ็นของฉัน
+  page_icon: 'ph:bold/signature'
+  intro: 'ภาพที่คุณลงชื่อโดยค่าเริ่มต้น อัปโหลดไปยังห้องสมุดสื่อของคุณ ตัดให้พอดีที่นั่น จากนั้นเลือกที่นี่'
+  current: ลายเซ็นปัจจุบันของฉัน
+
+de:
+  page_title: 'Meine Unterschrift'
+  page_icon: 'ph:bold/signature'
+  intro: 'Das Bild, das Sie standardmäßig verwenden. Laden Sie es in Ihre Mediathek hoch, schneiden Sie es dort zu und wählen Sie es hier aus.'
+  current: 'Meine aktuelle Unterschrift'
+
+fi:
+  page_title: 'Oma allekirjoitukseni'
+  page_icon: 'ph:bold/signature'
+  intro: 'Kuva, jolla allekirjoitat oletusarvoisesti. Lataa se mediasi kirjastoon, rajaa se siellä ja valitse se täältä.'
+  current: 'Oma nykyinen allekirjoitukseni'
+
+ru:
+  page_title: 'Моя подпись'
+  page_icon: 'ph:bold/signature'
+  intro: 'Изображение, которым вы подписываетесь по умолчанию. Загрузите его в свою медиатеку, обрежьте там, а затем выберите здесь.'
+  current: 'Моя текущая подпись'
+
+pl:
+  page_title: 'Mój podpis'
+  page_icon: 'ph:bold/signature'
+  intro: 'Obraz, którym podpisujesz się domyślnie. Prześlij go do swojej biblioteki mediów, przytnij tam, a następnie wybierz go tutaj.'
+  current: 'Mój aktualny podpis'
+
+es:
+  page_title: 'Mi firma'
+  page_icon: 'ph:bold/signature'
+  intro: 'La imagen con la que firmas por defecto. Sube a tu biblioteca de medios, recórtala allí y luego selecciónala aquí.'
+  current: 'Mi firma actual'
+
+it:
+  page_title: 'La mia firma'
+  page_icon: 'ph:bold/signature'
+  intro: "L'immagine con cui firmi di default. Caricala nella tua libreria multimediale, ritagliala lì, poi selezionala qui."
+  current: 'La mia firma attuale'
+
+pt_BR:
+  page_title: 'Minha assinatura'
+  page_icon: 'ph:bold/signature'
+  intro: 'A imagem que você assina por padrão. Faça o upload para a sua biblioteca de mídia, corte-a lá e, em seguida, selecione-a aqui.'
+  current: 'Minha assinatura atual'
+
+tr:
+  page_title: İmzam
+  page_icon: 'ph:bold/signature'
+  intro: 'Varsayılan olarak imzaladığınız görüntü. Medya kütüphanenize yükleyin, orada kırpın, ardından buradan seçin.'
+  current: 'Mevcut imzam'
+
+vi:
+  page_title: 'Chữ ký của tôi'
+  page_icon: 'ph:bold/signature'
+  intro: 'Hình ảnh bạn ký mặc định. Tải lên thư viện phương tiện của bạn, cắt nó ở đó, sau đó chọn ở đây.'
+  current: 'Chữ ký hiện tại của tôi'
+
+id:
+  page_title: 'Tanda tangan saya'
+  page_icon: 'ph:bold/signature'
+  intro: 'Gambar yang Anda tanda tangani secara default. Unggah ke perpustakaan media Anda, potong di sana, lalu pilih di sini.'
+  current: 'Tanda tangan saya saat ini'
+
+nl:
+  page_title: 'Mijn handtekening'
+  page_icon: 'ph:bold/signature'
+  intro: 'De afbeelding die je standaard gebruikt om te ondertekenen. Upload het naar je mediamap, snijd het daar bij, en kies het hier.'
+  current: 'Mijn huidige handtekening'

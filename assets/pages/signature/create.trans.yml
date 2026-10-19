@@ -12,3 +12,103 @@ zh:
   page_title: 新信封
   page_icon: 'ph:bold/envelope-simple'
   intro: 信封是一起签署的东西。从媒体库中选择其文件；接下来添加签署人，然后封存——从那时起其内容将被冻结。
+
+ar:
+  page_title: 'ظرف جديد'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'الظرف هو ما يتم توقيعه معًا. اختر مستنداته من مكتبة الوسائط؛ ثم تضيف الموقعين عليه، ثم تختمه — محتواه يكون مجمدًا من تلك اللحظة فصاعدًا.'
+
+hi:
+  page_title: 'नया लिफाफा'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'एक लिफाफा वो होता है जिसे एक साथ साइन किया जाता है। इसके दस्तावेज़ मीडिया लाइब्रेरी से चुनें; फिर आप इसके साइनर्स को जोड़ते हैं, फिर इसे सील करें - इसके बाद इसकी सामग्री स्थिर हो जाती है।'
+
+he:
+  page_title: 'מעטפה חדשה'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'מעטפה היא מה שנחתם יחד. בחר את המסמכים שלה בספריית המדיה; לאחר מכן הוסף את החותמים שלה, ואז סגור אותה — התוכן שלה קופא מעכשיו.'
+
+fa:
+  page_title: 'پاکت جدید'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'پاکت چیزی است که به صورت مشترک امضا می‌شود. مدارک آن را از کتابخانه رسانه انتخاب کنید؛ سپس امضاکنندگان آن را اضافه کنید و بعد آن را مهر و موم کنید — محتوای آن از آن لحظه به بعد غیرقابل تغییر است.'
+
+ur:
+  page_title: 'نیا لفافہ'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'ایک لفافہ وہ ہے جس پر ایک ساتھ دستخط کیے جاتے ہیں۔ اس کے دستاویزات میڈیا لائبریری سے منتخب کریں؛ اس کے دستخط کرنے والوں کو بعد میں شامل کریں، پھر اسے سیل کریں — اس کا مواد اس کے بعد منجمد ہو جاتا ہے۔'
+
+ja:
+  page_title: 新しい封筒
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 封筒は一緒に署名されるものです。メディアライブラリからその文書を選択し、次に署名者を追加し、最後に封印します。その時から内容は固定されます。
+
+ko:
+  page_title: '새로운 봉투'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: '봉투는 함께 서명되는 것입니다. 미디어 라이브러리에서 문서를 선택한 다음 서명자를 추가하고 봉인하면 — 그 내용은 그 이후로 고정됩니다.'
+
+bn:
+  page_title: 'নতুন খাম'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'একটি খাম হল যা একসাথে স্বাক্ষরিত হয়। মিডিয়া লাইব্রেরি থেকে এর নথিপত্র নির্বাচন করুন; তারপর আপনি এর স্বাক্ষরকারীদের যোগ করবেন, তারপর এটিকে সিল করুন — এর বিষয়বস্তু তখন থেকে স্থির হয়ে যাবে।'
+
+th:
+  page_title: ซองใหม่
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'ซองคือสิ่งที่ลงนามร่วมกัน เลือกเอกสารในห้องสมุดสื่อก่อน จากนั้นเพิ่มผู้ลงนาม แล้วปิดผนึก — เนื้อหาจะถูกแช่แข็งตั้งแต่นั้นเป็นต้นไป.'
+
+de:
+  page_title: 'Neues Kuvert'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Ein Kuvert ist das, was gemeinsam unterschrieben wird. Wählen Sie die Dokumente aus der Mediendatenbank aus; fügen Sie dann die Unterzeichner hinzu und versiegeln Sie es – der Inhalt ist von da an eingefroren.'
+
+fi:
+  page_title: 'Uusi kuori'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Kuori on se, mikä allekirjoitetaan yhdessä. Valitse sen asiakirjat mediakirjastosta; lisää sen allekirjoittajat seuraavaksi, ja sitten sulje se — sen sisältö on siitä lähtien jäädytetty.'
+
+ru:
+  page_title: 'Новое письмо'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Письмо — это то, что подписывается совместно. Выберите его документы в медиатеке; затем добавьте подписантов, а потом запечатайте — его содержимое будет зафиксировано с этого момента.'
+
+pl:
+  page_title: 'Nowa koperta'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Koperta to coś, co jest podpisywane razem. Wybierz jej dokumenty z biblioteki mediów; następnie dodaj podpisujących, a potem ją zamknij — jej zawartość jest od tego momentu zamrożona.'
+
+es:
+  page_title: 'Nuevo sobre'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Un sobre es lo que se firma en conjunto. Selecciona sus documentos en la biblioteca de medios; luego agregas a sus firmantes y después lo sellas: su contenido queda congelado a partir de ese momento.'
+
+it:
+  page_title: 'Nuova busta'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Una busta è ciò che viene firmato insieme. Scegli i suoi documenti nella libreria multimediale; aggiungi i suoi firmatari successivamente, poi sigilla — il suo contenuto è bloccato da quel momento in poi.'
+
+pt_BR:
+  page_title: 'Novo envelope'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Um envelope é o que é assinado em conjunto. Escolha seus documentos na biblioteca de mídias; adicione seus signatários a seguir e, em seguida, sele isso — seu conteúdo fica congelado a partir daí.'
+
+tr:
+  page_title: 'Yeni zarf'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Bir zarf, birlikte imzalanan şeydir. Medya kütüphanesinden belgelerini seçin; ardından imzalayanları ekleyin, sonra mühürleyin — içeriği o andan itibaren dondurulur.'
+
+vi:
+  page_title: 'Bì thư mới'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Bì thư là thứ được ký cùng nhau. Chọn tài liệu của nó trong thư viện phương tiện; bạn thêm người ký tiếp theo, sau đó niêm phong — nội dung của nó sẽ không thay đổi từ đó.'
+
+id:
+  page_title: 'Amplop Baru'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Amplop adalah tempat yang ditandatangani bersama. Pilih dokumen-dokumennya di perpustakaan media; Anda menambahkan penandatangan selanjutnya, lalu segel — isinya akan dibekukan mulai saat itu.'
+
+nl:
+  page_title: 'Nieuwe envelop'
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 'Een envelop is wat samen wordt ondertekend. Kies de documenten in de mediatheek; voeg daarna de ondertekenaars toe en verzegel het — de inhoud is vanaf dat moment bevroren.'

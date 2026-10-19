@@ -120,3 +120,823 @@ zh:
     title: 验证
     valid: 一切正常——每个文件都是已封存的文件，每个签名都在链中。
     invalid: 某些内容不再正常——某个文件或签名已更改。下载证明以获取详细信息。
+
+ar:
+  page_title: ظرف
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'ختم وإرسال'
+    seal_confirm: 'تم الختم، لم تعد مستنداته والموقعون قابلة للتغيير، ويُطلب من الموقعين التوقيع.'
+    cancel: إلغاء
+    cancel_confirm: 'لن يتمكن الموقعون من التوقيع عليه بعد الآن.'
+    proof: 'تحميل الإثبات'
+  done:
+    sealed: 'تم الختم. يُطلب من الموقعين التوقيع.'
+    cancelled: 'تم الإلغاء.'
+    signer_removed: 'تم إزالة الموقع.'
+  field:
+    title: العنوان
+    status: الحالة
+    order: الترتيب
+    sealed: مختوم
+    fingerprint: 'البصمة (SHA-256 لما تم توقيعه)'
+  order:
+    ordered: 'واحد تلو الآخر'
+    any: 'أي ترتيب'
+  documents:
+    title: المستندات
+    name: مستند
+  signers:
+    title: الموقعون
+    empty: 'لا يوجد موقع بعد. أضف واحدًا أدناه.'
+    who: الموقع
+    kind: التوقيعات
+    outside: 'من خلال رابط تم إرساله عبر البريد'
+    account: 'تم تسجيل الدخول'
+    when: 'تم التوقيع في'
+    timestamped: 'تم وضع الطابع الزمني بواسطة جهة موثوقة'
+    sign: توقيع
+    remove: إزالة
+  verification:
+    title: التحقق
+    valid: 'كل شيء صحيح - كل مستند هو الملف المختوم، وكل توقيع في السلسلة.'
+    invalid: 'هناك شيء لم يعد صحيحًا - تم تغيير مستند أو توقيع منذ ذلك الحين. قم بتنزيل الإثبات للحصول على التفاصيل.'
+
+hi:
+  page_title: लिफाफा
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'सील करें और भेजें'
+    seal_confirm: 'सील कर दिया गया, इसके दस्तावेज और हस्ताक्षरकर्ता अब नहीं बदलेंगे, और हस्ताक्षरकर्ताओं से हस्ताक्षर करने के लिए कहा जाता है।'
+    cancel: 'रद्द करें'
+    cancel_confirm: 'हस्ताक्षरकर्ता इसे अब हस्ताक्षर नहीं कर पाएंगे।'
+    proof: 'प्रमाण डाउनलोड करें'
+  done:
+    sealed: 'सील कर दिया गया। हस्ताक्षरकर्ताओं से हस्ताक्षर करने के लिए कहा जाता है।'
+    cancelled: 'रद्द कर दिया गया।'
+    signer_removed: 'हस्ताक्षरकर्ता हटा दिया गया।'
+  field:
+    title: शीर्षक
+    status: स्थिति
+    order: क्रम
+    sealed: 'सील किया गया'
+    fingerprint: 'फिंगरप्रिंट (हस्ताक्षर किया गया का SHA-256)'
+  order:
+    ordered: 'एक के बाद एक'
+    any: 'कोई भी क्रम'
+  documents:
+    title: दस्तावेज़
+    name: दस्तावेज़
+  signers:
+    title: हस्ताक्षरकर्ता
+    empty: 'अभी तक कोई हस्ताक्षरकर्ता नहीं। नीचे एक जोड़ें।'
+    who: हस्ताक्षरकर्ता
+    kind: हस्ताक्षर
+    outside: 'ईमेल द्वारा भेजे गए लिंक के माध्यम से'
+    account: 'साइन इन किया हुआ'
+    when: 'हस्ताक्षरित किया गया'
+    timestamped: 'एक प्राधिकरण द्वारा समय-चिह्नित'
+    sign: 'हस्ताक्षर करें'
+    remove: हटाएं
+  verification:
+    title: सत्यापन
+    valid: 'सब कुछ सही है — प्रत्येक दस्तावेज़ वही फ़ाइल है जो सील की गई है, प्रत्येक हस्ताक्षर श्रृंखला में है।'
+    invalid: 'कुछ अब सही नहीं है — कोई दस्तावेज़ या हस्ताक्षर तब से बदल गया है। विवरण के लिए प्रमाण डाउनलोड करें।'
+
+he:
+  page_title: מעטפה
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'חתום ושלח'
+    seal_confirm: 'החוזה חתום, המסמכים והחותמים לא ישתנו, והחותמים מתבקשים לחתום.'
+    cancel: בטל
+    cancel_confirm: 'החותמים לא יוכלו עוד לחתום עליו.'
+    proof: 'הורד את הוכחת החתימה'
+  done:
+    sealed: 'חתום. החותמים מתבקשים לחתום.'
+    cancelled: בוטל.
+    signer_removed: 'החותם הוסר.'
+  field:
+    title: כותרת
+    status: מצב
+    order: סדר
+    sealed: חתום
+    fingerprint: 'טביעת אצבע (SHA-256 של מה שחתום)'
+  order:
+    ordered: 'אחד אחרי השני'
+    any: 'כל סדר'
+  documents:
+    title: מסמכים
+    name: מסמך
+  signers:
+    title: חותמים
+    empty: 'אין עדיין חותם. הוסף אחד למטה.'
+    who: חותם
+    kind: חותמות
+    outside: 'דרך קישור שנשלח בדוא"ל'
+    account: מחובר
+    when: 'נחתם ב'
+    timestamped: 'מתועד על ידי רשות'
+    sign: חתום
+    remove: הסר
+  verification:
+    title: אימות
+    valid: 'הכל תקין — כל מסמך הוא הקובץ החתום, כל חתימה נמצאת בשרשרת.'
+    invalid: 'משהו כבר לא תקין — מסמך או חתימה השתנו מאז. הורד את הוכחת החתימה לפרטים.'
+
+fa:
+  page_title: پاکت
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'مهر و ارسال'
+    seal_confirm: 'مهر شد، اسناد و امضاها دیگر تغییر نمی‌کنند و از امضاکنندگان خواسته می‌شود که امضا کنند.'
+    cancel: لغو
+    cancel_confirm: 'امضاکنندگان دیگر نمی‌توانند آن را امضا کنند.'
+    proof: 'دانلود مدرک'
+  done:
+    sealed: 'مهر شد. از امضاکنندگان خواسته می‌شود که امضا کنند.'
+    cancelled: 'لغو شد.'
+    signer_removed: 'امضاکننده حذف شد.'
+  field:
+    title: عنوان
+    status: وضعیت
+    order: ترتیب
+    sealed: 'مهر شده'
+    fingerprint: 'اثر انگشت (SHA-256 از آنچه امضا شده است)'
+  order:
+    ordered: 'یکی پس از دیگری'
+    any: 'هر ترتیبی'
+  documents:
+    title: اسناد
+    name: سند
+  signers:
+    title: امضاکنندگان
+    empty: 'هنوز امضاکننده‌ای وجود ندارد. یکی را در زیر اضافه کنید.'
+    who: امضاکننده
+    kind: امضاها
+    outside: 'از طریق لینکی که به ایمیل ارسال شده'
+    account: 'ورود کرده'
+    when: 'در تاریخ'
+    timestamped: 'تاریخ‌گذاری شده توسط یک مرجع'
+    sign: 'امضا کردن'
+    remove: حذف
+  verification:
+    title: تأییدیه
+    valid: 'همه چیز درست است — هر سند، فایلی است که مهر شده، هر امضا در زنجیره است.'
+    invalid: 'چیزی دیگر درست نیست — یک سند یا امضا از آن زمان تغییر کرده است. برای جزئیات، مدرک را دانلود کنید.'
+
+ur:
+  page_title: لفافہ
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'مہر لگائیں اور بھیجیں'
+    seal_confirm: 'مہر لگا دی گئی، اس کے دستاویزات اور دستخط کرنے والوں میں مزید تبدیلی نہیں ہوگی، اور دستخط کرنے والوں سے دستخط کرنے کے لیے کہا جائے گا۔'
+    cancel: 'منسوخ کریں'
+    cancel_confirm: 'دستخط کرنے والے اس پر مزید دستخط نہیں کر سکیں گے۔'
+    proof: 'ثبوت ڈاؤن لوڈ کریں'
+  done:
+    sealed: 'مہر لگا دی گئی۔ دستخط کرنے والوں سے دستخط کرنے کے لیے کہا جائے گا۔'
+    cancelled: 'منسوخ کر دیا گیا۔'
+    signer_removed: 'دستخط کرنے والا ہٹا دیا گیا۔'
+  field:
+    title: عنوان
+    status: حالت
+    order: ترتیب
+    sealed: 'مہر لگا دیا گیا'
+    fingerprint: 'فنگر پرنٹ (دستخط شدہ مواد کا SHA-256)'
+  order:
+    ordered: 'ایک کے بعد ایک'
+    any: 'کسی بھی ترتیب'
+  documents:
+    title: دستاویزات
+    name: دستاویز
+  signers:
+    title: 'دستخط کرنے والے'
+    empty: 'ابھی کوئی دستخط کرنے والا نہیں۔ نیچے ایک شامل کریں۔'
+    who: 'دستخط کرنے والا'
+    kind: دستخط
+    outside: 'میل کے ذریعے بھیجے گئے لنک کے ذریعے'
+    account: 'سائن ان کیا ہوا'
+    when: 'دستخط کیا گیا'
+    timestamped: 'ایک اتھارٹی کے ذریعہ وقت کا نشان لگا دیا گیا'
+    sign: 'دستخط کریں'
+    remove: ہٹائیں
+  verification:
+    title: تصدیق
+    valid: 'سب کچھ درست ہے — ہر دستاویز مہر لگائی گئی فائل ہے، ہر دستخط زنجیر میں ہے۔'
+    invalid: 'کچھ اب درست نہیں ہے — کوئی دستاویز یا دستخط اس کے بعد تبدیل ہو گیا ہے۔ تفصیلات کے لیے ثبوت ڈاؤن لوڈ کریں۔'
+
+ja:
+  page_title: 封筒
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 封印して送信
+    seal_confirm: 封印されました。書類と署名者は変更できなくなり、署名者に署名を求められます。
+    cancel: キャンセル
+    cancel_confirm: 署名者はもはや署名できなくなります。
+    proof: 証明書をダウンロード
+  done:
+    sealed: 封印されました。署名者に署名を求められます。
+    cancelled: キャンセルしました。
+    signer_removed: 署名者が削除されました。
+  field:
+    title: タイトル
+    status: 状態
+    order: 順序
+    sealed: 封印済み
+    fingerprint: フィンガープリント（署名されたもののSHA-256）
+  order:
+    ordered: 順番に
+    any: 任意の順序
+  documents:
+    title: ドキュメント
+    name: 文書
+  signers:
+    title: 署名者
+    empty: まだ署名者がいません。下に追加してください。
+    who: 署名者
+    kind: 署名
+    outside: メールで送信されたリンクを通じて
+    account: サインイン済み
+    when: 署名日
+    timestamped: 権限によりタイムスタンプが付与されました
+    sign: 署名する
+    remove: 削除
+  verification:
+    title: 検証
+    valid: 'すべて確認済み — 各文書は封印されたファイルであり、各署名はチェーン内にあります。'
+    invalid: '何かがもはや確認できません — 文書または署名が変更されました。詳細については証明書をダウンロードしてください。'
+
+ko:
+  page_title: 봉투
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: '봉인하고 전송'
+    seal_confirm: '봉인되었습니다. 문서와 서명자는 더 이상 변경할 수 없으며, 서명자는 서명을 요청받습니다.'
+    cancel: 취소
+    cancel_confirm: '서명자가 더 이상 서명할 수 없습니다.'
+    proof: '증명서 다운로드'
+  done:
+    sealed: '봉인되었습니다. 서명자는 서명을 요청받습니다.'
+    cancelled: 취소되었습니다.
+    signer_removed: '서명자가 제거되었습니다.'
+  field:
+    title: 제목
+    status: 상태
+    order: 순서
+    sealed: 봉인됨
+    fingerprint: '지문 (서명된 내용의 SHA-256)'
+  order:
+    ordered: 차례대로
+    any: '임의의 순서'
+  documents:
+    title: 문서
+    name: 문서
+  signers:
+    title: 서명자
+    empty: '아직 서명자가 없습니다. 아래에 추가하세요.'
+    who: 서명자
+    kind: 서명
+    outside: '이메일로 전송된 링크를 통해'
+    account: 로그인됨
+    when: 서명일
+    timestamped: '권한에 의해 타임스탬프가 부여됨'
+    sign: 서명
+    remove: 제거
+  verification:
+    title: 검증
+    valid: '모든 것이 확인되었습니다 — 각 문서는 봉인된 파일이며, 각 서명은 체인에 있습니다.'
+    invalid: '더 이상 확인되지 않는 항목이 있습니다 — 문서나 서명이 변경되었습니다. 자세한 내용을 위해 증명서를 다운로드하세요.'
+
+bn:
+  page_title: লিফলেট
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'সীল করুন এবং পাঠান'
+    seal_confirm: 'সীল করা হয়েছে, এর নথি এবং স্বাক্ষরকারীরা আর পরিবর্তিত হবে না, এবং স্বাক্ষরকারীদের স্বাক্ষর করার জন্য বলা হয়েছে।'
+    cancel: 'বাতিল করুন'
+    cancel_confirm: 'স্বাক্ষরকারীরা এটি আর স্বাক্ষর করতে পারবে না।'
+    proof: 'প্রমাণ ডাউনলোড করুন'
+  done:
+    sealed: 'সীল করা হয়েছে। স্বাক্ষরকারীদের স্বাক্ষর করার জন্য বলা হয়েছে।'
+    cancelled: 'বাতিল করা হয়েছে।'
+    signer_removed: 'স্বাক্ষরকারী মুছে ফেলা হয়েছে।'
+  field:
+    title: শিরোনাম
+    status: অবস্থা
+    order: ক্রম
+    sealed: 'সীল করা হয়েছে'
+    fingerprint: 'স্বাক্ষরের ফিঙ্গারপ্রিন্ট (SHA-256)'
+  order:
+    ordered: 'একটির পর একটি'
+    any: 'যেকোনো ক্রম'
+  documents:
+    title: নথি
+    name: নথি
+  signers:
+    title: স্বাক্ষরকারীরা
+    empty: 'এখনো কোন স্বাক্ষরকারী নেই। নিচে একটি যোগ করুন।'
+    who: স্বাক্ষরকারী
+    kind: স্বাক্ষর
+    outside: 'একটি লিঙ্কের মাধ্যমে যা মেইলে পাঠানো হয়েছে'
+    account: স্বাক্ষরিত
+    when: 'স্বাক্ষরিত হয়েছে'
+    timestamped: 'একটি কর্তৃপক্ষ দ্বারা সময়মত'
+    sign: 'স্বাক্ষর করুন'
+    remove: 'মুছে ফেলুন'
+  verification:
+    title: যাচাইকরণ
+    valid: 'সবকিছু ঠিক আছে — প্রতিটি নথি সীল করা ফাইল, প্রতিটি স্বাক্ষর চেইনে।'
+    invalid: 'কিছু আর ঠিক নেই — একটি নথি বা একটি স্বাক্ষর পরিবর্তিত হয়েছে। বিস্তারিত জানার জন্য প্রমাণ ডাউনলোড করুন।'
+
+th:
+  page_title: ซองจดหมาย
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: ปิดผนึกและส่ง
+    seal_confirm: 'ปิดผนึกแล้ว เอกสารและผู้ลงนามไม่สามารถเปลี่ยนแปลงได้อีก และผู้ลงนามจะถูกขอให้ลงนาม'
+    cancel: ยกเลิก
+    cancel_confirm: ผู้ลงนามจะไม่สามารถลงนามได้อีกต่อไป
+    proof: ดาวน์โหลดหลักฐาน
+  done:
+    sealed: 'ปิดผนึกแล้ว ผู้ลงนามจะถูกขอให้ลงนาม'
+    cancelled: ถูกยกเลิกแล้ว
+    signer_removed: ผู้ลงนามถูกลบออกแล้ว
+  field:
+    title: ชื่อเรื่อง
+    status: สถานะ
+    order: ลำดับ
+    sealed: ปิดผนึก
+    fingerprint: 'ลายนิ้วมือ (SHA-256 ของสิ่งที่ลงนาม)'
+  order:
+    ordered: หนึ่งตามหลังอีกหนึ่ง
+    any: ลำดับใดก็ได้
+  documents:
+    title: เอกสาร
+    name: เอกสาร
+  signers:
+    title: ผู้ลงนาม
+    empty: 'ยังไม่มีผู้ลงนาม เพิ่มด้านล่าง'
+    who: ผู้ลงนาม
+    kind: ลงนาม
+    outside: ผ่านลิงก์ที่ส่งทางอีเมล
+    account: ลงชื่อเข้าใช้แล้ว
+    when: ลงนามเมื่อ
+    timestamped: มีการประทับเวลาโดยหน่วยงาน
+    sign: ลงนาม
+    remove: ลบ
+  verification:
+    title: การตรวจสอบ
+    valid: 'ทุกอย่างถูกต้อง — เอกสารแต่ละฉบับคือไฟล์ที่ถูกปิดผนึก และลายเซ็นแต่ละฉบับอยู่ในห่วงโซ่'
+    invalid: 'บางอย่างไม่ถูกต้องอีกต่อไป — เอกสารหรือลายเซ็นมีการเปลี่ยนแปลงตั้งแต่นั้น ดาวน์โหลดหลักฐานเพื่อดูรายละเอียด'
+
+de:
+  page_title: Umschlag
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Versiegeln und senden'
+    seal_confirm: 'Versiegelt, seine Dokumente und Unterzeichner können nicht mehr geändert werden, und die Unterzeichner werden aufgefordert zu unterschreiben.'
+    cancel: Abbrechen
+    cancel_confirm: 'Die Unterzeichner können es nicht mehr unterschreiben.'
+    proof: 'Den Nachweis herunterladen'
+  done:
+    sealed: 'Versiegelt. Die Unterzeichner werden aufgefordert zu unterschreiben.'
+    cancelled: Abgebrochen.
+    signer_removed: 'Unterzeichner entfernt.'
+  field:
+    title: Titel
+    status: Status
+    order: Reihenfolge
+    sealed: Versiegelt
+    fingerprint: 'Fingerabdruck (SHA-256 von dem, was unterschrieben wird)'
+  order:
+    ordered: 'Einer nach dem anderen'
+    any: 'Beliebige Reihenfolge'
+  documents:
+    title: Dokumente
+    name: Dokument
+  signers:
+    title: Unterzeichner
+    empty: 'Noch kein Unterzeichner. Fügen Sie einen unten hinzu.'
+    who: Unterzeichner
+    kind: Unterschreibt
+    outside: 'über einen per E-Mail gesendeten Link'
+    account: angemeldet
+    when: 'Unterschrieben am'
+    timestamped: 'Zeitstempel von einer Behörde'
+    sign: Unterschreiben
+    remove: Entfernen
+  verification:
+    title: Überprüfung
+    valid: 'Alles überprüft — jedes Dokument ist die versiegelte Datei, jede Unterschrift ist in der Kette.'
+    invalid: 'Etwas stimmt nicht mehr — ein Dokument oder eine Unterschrift hat sich seitdem geändert. Laden Sie den Nachweis für die Details herunter.'
+
+fi:
+  page_title: Kirjekuori
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Sinettä ja lähetä'
+    seal_confirm: 'Sinettu, asiakirjat ja allekirjoittajat eivät enää muutu, ja allekirjoittajilta pyydetään allekirjoitusta.'
+    cancel: Peruuta
+    cancel_confirm: 'Allekirjoittajat eivät enää voi allekirjoittaa sitä.'
+    proof: 'Lataa todiste'
+  done:
+    sealed: 'Sinettu. Allekirjoittajilta pyydetään allekirjoitusta.'
+    cancelled: Peruutettu.
+    signer_removed: 'Allekirjoittaja poistettu.'
+  field:
+    title: Otsikko
+    status: Tila
+    order: Järjestys
+    sealed: Sinettu
+    fingerprint: 'Sormenjälki (SHA-256 allekirjoitetusta sisällöstä)'
+  order:
+    ordered: 'Yksi kerrallaan'
+    any: 'Mikä tahansa järjestys'
+  documents:
+    title: Asiakirjat
+    name: Asiakirja
+  signers:
+    title: Allekirjoittajat
+    empty: 'Ei vielä allekirjoittajia. Lisää yksi alla.'
+    who: Allekirjoittaja
+    kind: Allekirjoittaa
+    outside: 'linkin kautta, joka lähetetään sähköpostitse'
+    account: 'kirjautunut sisään'
+    when: Allekirjoitettu
+    timestamped: 'Aikaleimattu viranomaisen toimesta'
+    sign: Allekirjoita
+    remove: Poista
+  verification:
+    title: Vahvistus
+    valid: 'Kaikki on kunnossa — jokainen asiakirja on sinetöity tiedosto, jokainen allekirjoitus on ketjussa.'
+    invalid: 'Jokin ei ole enää kunnossa — asiakirja tai allekirjoitus on muuttunut siitä lähtien. Lataa todiste saadaksesi lisätietoja.'
+
+ru:
+  page_title: Конверт
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Запечатать и отправить'
+    seal_confirm: 'Запечатано, документы и подписанты больше не изменяются, и подписантам предлагается подписать.'
+    cancel: Отменить
+    cancel_confirm: 'Подписанты больше не смогут подписать его.'
+    proof: 'Скачать доказательство'
+  done:
+    sealed: 'Запечатано. Подписантам предлагается подписать.'
+    cancelled: Отменено.
+    signer_removed: 'Подписант удалён.'
+  field:
+    title: Название
+    status: Состояние
+    order: Порядок
+    sealed: Запечатано
+    fingerprint: 'Отпечаток (SHA-256 того, что подписано)'
+  order:
+    ordered: 'Один за другим'
+    any: 'Любой порядок'
+  documents:
+    title: Документы
+    name: Документ
+  signers:
+    title: Подписанты
+    empty: 'Пока нет подписанта. Добавьте одного ниже.'
+    who: Подписант
+    kind: Подписи
+    outside: 'по ссылке, отправленной по почте'
+    account: 'войдите в систему'
+    when: Подписано
+    timestamped: 'Завизировано органом'
+    sign: Подписать
+    remove: Удалить
+  verification:
+    title: Проверка
+    valid: 'Всё в порядке — каждый документ является запечатанным файлом, каждая подпись в цепи.'
+    invalid: 'Что-то больше не в порядке — документ или подпись изменились с тех пор. Скачайте доказательство для подробностей.'
+
+pl:
+  page_title: Koperta
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Zatwierdź i wyślij'
+    seal_confirm: 'Zatwierdzono, dokumenty i sygnatariusze już się nie zmieniają, a sygnatariusze są proszeni o podpisanie.'
+    cancel: Anuluj
+    cancel_confirm: 'Sygnatariusze nie będą mogli już tego podpisać.'
+    proof: 'Pobierz dowód'
+  done:
+    sealed: 'Zatwierdzono. Sygnatariusze są proszeni o podpisanie.'
+    cancelled: Anulowane.
+    signer_removed: 'Sygnatariusz usunięty.'
+  field:
+    title: Tytuł
+    status: Stan
+    order: Kolejność
+    sealed: Zatwierdzone
+    fingerprint: 'Odcisk palca (SHA-256 tego, co jest podpisane)'
+  order:
+    ordered: 'Jeden po drugim'
+    any: 'Dowolna kolejność'
+  documents:
+    title: Dokumenty
+    name: Dokument
+  signers:
+    title: Sygnatariusze
+    empty: 'Brak sygnatariusza. Dodaj jednego poniżej.'
+    who: Sygnatariusz
+    kind: Podpisy
+    outside: 'przez link wysłany mailem'
+    account: zalogowany
+    when: 'Podpisano w'
+    timestamped: 'Oznaczone czasem przez organ'
+    sign: Podpisz
+    remove: Usuń
+  verification:
+    title: Weryfikacja
+    valid: 'Wszystko się zgadza — każdy dokument to plik zatwierdzony, każdy podpis jest w łańcuchu.'
+    invalid: 'Coś już się nie zgadza — dokument lub podpis zmienił się od tego czasu. Pobierz dowód, aby uzyskać szczegóły.'
+
+es:
+  page_title: Sobre
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Sellar y enviar'
+    seal_confirm: 'Sellado, sus documentos y firmantes ya no cambian, y se solicita a los firmantes que firmen.'
+    cancel: Cancelar
+    cancel_confirm: 'Los firmantes ya no podrán firmarlo.'
+    proof: 'Descargar la prueba'
+  done:
+    sealed: 'Sellado. Se solicita a los firmantes que firmen.'
+    cancelled: Cancelado.
+    signer_removed: 'Firmante eliminado.'
+  field:
+    title: Título
+    status: Estado
+    order: Orden
+    sealed: Sellado
+    fingerprint: 'Huella digital (SHA-256 de lo que se firma)'
+  order:
+    ordered: 'Uno tras otro'
+    any: 'Cualquier orden'
+  documents:
+    title: Documentos
+    name: Documento
+  signers:
+    title: Firmantes
+    empty: 'Aún no hay firmante. Agrega uno a continuación.'
+    who: Firmante
+    kind: Firma
+    outside: 'a través de un enlace enviado por correo'
+    account: conectado
+    when: 'Firmado el'
+    timestamped: 'Sellado por una autoridad'
+    sign: Firmar
+    remove: Eliminar
+  verification:
+    title: Verificación
+    valid: 'Todo verificado — cada documento es el archivo sellado, cada firma está en la cadena.'
+    invalid: 'Algo ya no verifica — un documento o una firma han cambiado desde entonces. Descarga la prueba para más detalles.'
+
+it:
+  page_title: Busta
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Sigilla e invia'
+    seal_confirm: 'Sigillato, i suoi documenti e firmatari non possono più essere modificati, e ai firmatari viene chiesto di firmare.'
+    cancel: Annulla
+    cancel_confirm: 'I firmatari non potranno più firmarlo.'
+    proof: 'Scarica la prova'
+  done:
+    sealed: 'Sigillato. Ai firmatari viene chiesto di firmare.'
+    cancelled: Annullato.
+    signer_removed: 'Firmatario rimosso.'
+  field:
+    title: Titolo
+    status: Stato
+    order: Ordine
+    sealed: Sigillato
+    fingerprint: 'Impronta digitale (SHA-256 di ciò che è firmato)'
+  order:
+    ordered: "Uno dopo l'altro"
+    any: 'Qualsiasi ordine'
+  documents:
+    title: Documenti
+    name: Documento
+  signers:
+    title: Firmatari
+    empty: 'Nessun firmatario ancora. Aggiungine uno qui sotto.'
+    who: Firmatario
+    kind: Firma
+    outside: 'tramite un link inviato via email'
+    account: connesso
+    when: 'Firmato il'
+    timestamped: "Data e ora da un'autorità"
+    sign: Firma
+    remove: Rimuovi
+  verification:
+    title: Verifica
+    valid: 'Tutto è corretto — ogni documento è il file sigillato, ogni firma è nella catena.'
+    invalid: 'Qualcosa non è più corretto — un documento o una firma è cambiato da allora. Scarica la prova per i dettagli.'
+
+pt_BR:
+  page_title: Envelope
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Selar e enviar'
+    seal_confirm: 'Selado, seus documentos e signatários não podem mais ser alterados, e os signatários são solicitados a assinar.'
+    cancel: Cancelar
+    cancel_confirm: 'Os signatários não poderão mais assinar.'
+    proof: 'Baixar a prova'
+  done:
+    sealed: 'Selado. Os signatários são solicitados a assinar.'
+    cancelled: Cancelado.
+    signer_removed: 'Signatário removido.'
+  field:
+    title: Título
+    status: Estado
+    order: Ordem
+    sealed: Selado
+    fingerprint: 'Impressão digital (SHA-256 do que está assinado)'
+  order:
+    ordered: 'Um após o outro'
+    any: 'Qualquer ordem'
+  documents:
+    title: Documentos
+    name: Documento
+  signers:
+    title: Signatários
+    empty: 'Nenhum signatário ainda. Adicione um abaixo.'
+    who: Signatário
+    kind: Assina
+    outside: 'por meio de um link enviado por e-mail'
+    account: conectado
+    when: 'Assinado em'
+    timestamped: 'Carimbado por uma autoridade'
+    sign: Assinar
+    remove: Remover
+  verification:
+    title: Verificação
+    valid: 'Tudo conferido — cada documento é o arquivo selado, cada assinatura está na cadeia.'
+    invalid: 'Algo não confere mais — um documento ou uma assinatura mudou desde então. Baixe a prova para mais detalhes.'
+
+tr:
+  page_title: Zarf
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Mühürle ve gönder'
+    seal_confirm: 'Mühürlendi, belgeleri ve imzalayanları artık değiştiremeyecek ve imzalayanlardan imzalamaları istenecek.'
+    cancel: 'İptal et'
+    cancel_confirm: 'İmzalamak için artık imzalayanlar bunu yapamayacaklar.'
+    proof: 'Kanıtı indir'
+  done:
+    sealed: 'Mühürlendi. İmzalamaları için imzalayanlardan isteniyor.'
+    cancelled: 'İptal edildi.'
+    signer_removed: 'İmzalayan kaldırıldı.'
+  field:
+    title: Başlık
+    status: Durum
+    order: Sıra
+    sealed: Mühürlendi
+    fingerprint: "Parmak izi (imzalananların SHA-256'sı)"
+  order:
+    ordered: 'Birbirini takip eden'
+    any: 'Herhangi bir sıra'
+  documents:
+    title: Belgeler
+    name: Belge
+  signers:
+    title: İmzacılar
+    empty: 'Henüz imzalayan yok. Aşağıdan ekleyin.'
+    who: İmzacı
+    kind: İmzalar
+    outside: 'e-posta ile gönderilen bir bağlantı aracılığıyla'
+    account: 'giriş yapıldı'
+    when: İmzalandı
+    timestamped: 'Bir otorite tarafından zaman damgalı'
+    sign: 'İmza at'
+    remove: Kaldır
+  verification:
+    title: Doğrulama
+    valid: 'Her şey kontrol edildi — her belge mühürlenmiş dosya, her imza zincirde.'
+    invalid: 'Bir şey artık kontrol edilmedi — bir belge veya imza değişti. Detaylar için kanıtı indirin.'
+
+vi:
+  page_title: 'Phong bì'
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Niêm phong và gửi'
+    seal_confirm: 'Đã niêm phong, các tài liệu và người ký không còn thay đổi, và người ký được yêu cầu ký.'
+    cancel: 'Hủy bỏ'
+    cancel_confirm: 'Các người ký sẽ không còn có thể ký nữa.'
+    proof: 'Tải xuống bằng chứng'
+  done:
+    sealed: 'Đã niêm phong. Người ký được yêu cầu ký.'
+    cancelled: 'Đã hủy bỏ.'
+    signer_removed: 'Người ký đã bị xóa.'
+  field:
+    title: 'Tiêu đề'
+    status: 'Trạng thái'
+    order: 'Thứ tự'
+    sealed: 'Đã niêm phong'
+    fingerprint: 'Dấu vân tay (SHA-256 của những gì đã được ký)'
+  order:
+    ordered: 'Một cái sau cái khác'
+    any: 'Bất kỳ thứ tự nào'
+  documents:
+    title: 'Tài liệu'
+    name: 'Tài liệu'
+  signers:
+    title: 'Người ký'
+    empty: 'Chưa có người ký nào. Thêm một người bên dưới.'
+    who: 'Người ký'
+    kind: Ký
+    outside: 'qua một liên kết được gửi qua email'
+    account: 'đã đăng nhập'
+    when: 'Đã ký vào'
+    timestamped: 'Được đánh dấu thời gian bởi một cơ quan'
+    sign: Ký
+    remove: Xóa
+  verification:
+    title: 'Xác minh'
+    valid: 'Mọi thứ đều đúng — mỗi tài liệu là tệp đã được niêm phong, mỗi chữ ký nằm trong chuỗi.'
+    invalid: 'Có điều gì đó không còn đúng — một tài liệu hoặc chữ ký đã thay đổi từ đó. Tải xuống bằng chứng để biết chi tiết.'
+
+id:
+  page_title: Amplop
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Segel dan kirim'
+    seal_confirm: 'Tersegel, dokumen dan penandatangan tidak dapat diubah lagi, dan penandatangan diminta untuk menandatangani.'
+    cancel: Batal
+    cancel_confirm: 'Penandatangan tidak akan dapat menandatanganinya lagi.'
+    proof: 'Unduh bukti'
+  done:
+    sealed: 'Tersegel. Penandatangan diminta untuk menandatangani.'
+    cancelled: Dibatalkan.
+    signer_removed: 'Penandatangan dihapus.'
+  field:
+    title: Judul
+    status: Status
+    order: Urutan
+    sealed: Tersegel
+    fingerprint: 'Sidik jari (SHA-256 dari yang ditandatangani)'
+  order:
+    ordered: 'Satu setelah yang lain'
+    any: 'Urutan apa saja'
+  documents:
+    title: Dokumen
+    name: Dokumen
+  signers:
+    title: Penandatangan
+    empty: 'Belum ada penandatangan. Tambahkan satu di bawah.'
+    who: Penandatangan
+    kind: Menandatangani
+    outside: 'melalui tautan yang dikirim lewat email'
+    account: terdaftar
+    when: 'Ditandatangani pada'
+    timestamped: 'Diberi cap waktu oleh otoritas'
+    sign: Tandatangani
+    remove: Hapus
+  verification:
+    title: Verifikasi
+    valid: 'Semua cek — setiap dokumen adalah file yang disegel, setiap tanda tangan ada dalam rantai.'
+    invalid: 'Ada yang tidak cocok lagi — suatu dokumen atau tanda tangan telah diubah sejak. Unduh bukti untuk detail.'
+
+nl:
+  page_title: Envelop
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 'Afsluiten en verzenden'
+    seal_confirm: 'Afgesloten, de documenten en ondertekenaars kunnen niet meer veranderen, en de ondertekenaars worden gevraagd te ondertekenen.'
+    cancel: Annuleren
+    cancel_confirm: 'De ondertekenaars kunnen het niet meer ondertekenen.'
+    proof: 'Download het bewijs'
+  done:
+    sealed: 'Afgesloten. De ondertekenaars worden gevraagd te ondertekenen.'
+    cancelled: Geannuleerd.
+    signer_removed: 'Ondertekenaar verwijderd.'
+  field:
+    title: Titel
+    status: Status
+    order: Volgorde
+    sealed: Afgesloten
+    fingerprint: 'Vingerafdruk (SHA-256 van wat is ondertekend)'
+  order:
+    ordered: 'Een na de ander'
+    any: 'Elke volgorde'
+  documents:
+    title: Documenten
+    name: Document
+  signers:
+    title: Ondertekenaars
+    empty: 'Nog geen ondertekenaar. Voeg er een hieronder toe.'
+    who: Ondertekenaar
+    kind: Tekent
+    outside: 'via een link verzonden per e-mail'
+    account: ingelogd
+    when: 'Ondertekend op'
+    timestamped: 'Getekend door een autoriteit'
+    sign: Ondertekenen
+    remove: Verwijderen
+  verification:
+    title: Verificatie
+    valid: 'Alles klopt — elk document is het afgegeven bestand, elke handtekening is in de keten.'
+    invalid: 'Iets klopt niet meer — een document of een handtekening is sindsdien veranderd. Download het bewijs voor de details.'

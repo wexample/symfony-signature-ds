@@ -24,3 +24,183 @@ zh:
     submit: 保存此签名
   success:
     message: 签名已保存。
+
+ar:
+  field:
+    image:
+      label: توقيعي
+  action:
+    submit: 'احتفظ بهذا التوقيع'
+  success:
+    message: 'تم الاحتفاظ بالتوقيع.'
+
+hi:
+  field:
+    image:
+      label: 'मेरा हस्ताक्षर'
+  action:
+    submit: 'इस हस्ताक्षर को रखें'
+  success:
+    message: 'हस्ताक्षर सुरक्षित किया गया।'
+
+he:
+  field:
+    image:
+      label: 'החתימה שלי'
+  action:
+    submit: 'שמור חתימה זו'
+  success:
+    message: 'החתימה נשמרה.'
+
+fa:
+  field:
+    image:
+      label: 'امضاء من'
+  action:
+    submit: 'این امضاء را نگه‌دار'
+  success:
+    message: 'امضاء نگه‌داری شد.'
+
+ur:
+  field:
+    image:
+      label: 'میری دستخط'
+  action:
+    submit: 'اس دستخط کو محفوظ کریں'
+  success:
+    message: 'دستخط محفوظ کر لیا گیا۔'
+
+ja:
+  field:
+    image:
+      label: 私の署名
+  action:
+    submit: この署名を保持する
+  success:
+    message: 署名が保存されました。
+
+ko:
+  field:
+    image:
+      label: '내 서명'
+  action:
+    submit: '이 서명을 유지합니다'
+  success:
+    message: '서명이 저장되었습니다.'
+
+bn:
+  field:
+    image:
+      label: 'আমার স্বাক্ষর'
+  action:
+    submit: 'এই স্বাক্ষরটি সংরক্ষণ করুন'
+  success:
+    message: 'স্বাক্ষর সংরক্ষিত হয়েছে।'
+
+th:
+  field:
+    image:
+      label: ลายเซ็นของฉัน
+  action:
+    submit: เก็บลายเซ็นนี้
+  success:
+    message: เก็บลายเซ็นเรียบร้อยแล้ว.
+
+de:
+  field:
+    image:
+      label: 'Meine Unterschrift'
+  action:
+    submit: 'Diese Unterschrift speichern'
+  success:
+    message: 'Unterschrift gespeichert.'
+
+fi:
+  field:
+    image:
+      label: 'Oma allekirjoitus'
+  action:
+    submit: 'Tallenna tämä allekirjoitus'
+  success:
+    message: 'Allekirjoitus tallennettu.'
+
+ru:
+  field:
+    image:
+      label: 'Моя подпись'
+  action:
+    submit: 'Сохранить эту подпись'
+  success:
+    message: 'Подпись сохранена.'
+
+pl:
+  field:
+    image:
+      label: 'Moja sygnatura'
+  action:
+    submit: 'Zachowaj tę sygnaturę'
+  success:
+    message: 'Sygnatura została zachowana.'
+
+es:
+  field:
+    image:
+      label: 'Mi firma'
+  action:
+    submit: 'Conservar esta firma'
+  success:
+    message: 'Firma guardada.'
+
+it:
+  field:
+    image:
+      label: 'La mia firma'
+  action:
+    submit: 'Mantieni questa firma'
+  success:
+    message: 'Firma mantenuta.'
+
+pt_BR:
+  field:
+    image:
+      label: 'Minha assinatura'
+  action:
+    submit: 'Manter esta assinatura'
+  success:
+    message: 'Assinatura mantida.'
+
+tr:
+  field:
+    image:
+      label: Imzam
+  action:
+    submit: 'Bu imzayı koru'
+  success:
+    message: 'İmza kaydedildi.'
+
+vi:
+  field:
+    image:
+      label: 'Chữ ký của tôi'
+  action:
+    submit: 'Lưu chữ ký này'
+  success:
+    message: 'Chữ ký đã được lưu.'
+
+id:
+  field:
+    image:
+      label: 'Tanda tangan saya'
+  action:
+    submit: 'Simpan tanda tangan ini'
+  success:
+    message: 'Tanda tangan disimpan.'
+
+nl:
+  field:
+    image:
+      label: 'Mijn handtekening'
+  action:
+    submit: 'Deze handtekening behouden'
+  success:
+    message: 'Handtekening bewaard.'

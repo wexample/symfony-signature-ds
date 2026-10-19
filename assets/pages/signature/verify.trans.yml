@@ -27,3 +27,203 @@ zh:
   hidden: 您不属于的信封
   name: 已签名为
   sealed: 已密封于
+
+ar:
+  page_title: 'تحقق من ملف'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'هل هذا الملف هو الذي تم توقيعه، دون تغيير؟ يتم تجزئته عند الوصول ويتم البحث عنه بواسطة بايته، بغض النظر عن اسمه؛ لا يتم الاحتفاظ بأي شيء منه.'
+  none: 'لا يوجد مستند موقع يحتوي بالضبط على هذه البايتات — تم تغييره، أو لم يتم توقيعه أبداً.'
+  found: 'موقع، دون تغيير، في %count% ظرف(أظرف).'
+  hidden: 'ظرف لست جزءًا منه'
+  name: 'موقع كـ'
+  sealed: 'مختوم في'
+
+hi:
+  page_title: 'एक फ़ाइल की पुष्टि करें'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'क्या यह फ़ाइल वह है जिसे हस्ताक्षरित किया गया था, अपरिवर्तित? इसे आने पर हैश किया गया है और इसके बाइट्स द्वारा देखा गया है, चाहे इसका नाम कुछ भी हो; इसका कुछ भी नहीं रखा जाता है।'
+  none: 'कोई हस्ताक्षरित दस्तावेज़ इन बाइट्स के साथ बिल्कुल नहीं है — परिवर्तित, या कभी हस्ताक्षरित नहीं।'
+  found: 'हस्ताक्षरित, अपरिवर्तित, %count% लिफाफे(s) में।'
+  hidden: 'एक लिफाफा जिसमें आप शामिल नहीं हैं'
+  name: 'हस्ताक्षरित के रूप में'
+  sealed: 'सील किया गया'
+
+he:
+  page_title: 'אמת קובץ'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'האם הקובץ הזה הוא קובץ שנחתם, ולא השתנה? הוא מחושב עם הגעתו ומחפש לפי הבייטים שלו, לא משנה מה שמו; שום דבר ממנו לא נשמר.'
+  none: 'אין מסמך חתום שיש לו בדיוק את הבייטים האלה — שונה, או שמעולם לא נחתם.'
+  found: 'חתום, לא השתנה, ב-%count% מעטפה/ות.'
+  hidden: 'מעטפה שאתה לא חלק ממנה'
+  name: 'חתום כ'
+  sealed: 'חתום על'
+
+fa:
+  page_title: 'تأیید یک فایل'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'آیا این فایل یکی از فایل‌های امضا شده و تغییر نیافته است؟ این فایل در زمان ورود هش می‌شود و بر اساس بایت‌های آن، بدون توجه به نامش، جستجو می‌شود؛ هیچ چیزی از آن نگه‌داری نمی‌شود.'
+  none: 'هیچ سند امضاشده‌ای دقیقاً این بایت‌ها را ندارد — تغییر کرده یا هرگز امضا نشده است.'
+  found: 'امضا شده، تغییر نیافته، در %count% پاکت.'
+  hidden: 'یک پاکت که شما بخشی از آن نیستید'
+  name: 'امضا شده به عنوان'
+  sealed: 'مهر و موم شده در'
+
+ur:
+  page_title: 'فائل کی تصدیق کریں'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'کیا یہ فائل وہ ہے جو دستخط شدہ ہے، بغیر تبدیلی کے؟ یہ آمد پر ہیش کی گئی ہے اور اس کے بائٹس کے ذریعے تلاش کی گئی ہے، چاہے اس کا نام کچھ بھی ہو؛ اس کا کچھ بھی محفوظ نہیں کیا گیا ہے۔'
+  none: 'دستخط شدہ دستاویز کے پاس بالکل یہی بائٹس نہیں ہیں — تبدیل شدہ، یا کبھی دستخط نہیں ہوئے۔'
+  found: 'دستخط شدہ، بغیر تبدیلی کے، %count% لفافے میں۔'
+  hidden: 'ایک لفافہ جس کا آپ حصہ نہیں ہیں'
+  name: 'دستخط شدہ کے طور پر'
+  sealed: 'مہر بند کیا گیا'
+
+ja:
+  page_title: ファイルの確認
+  page_icon: 'ph:bold/seal-check'
+  intro: このファイルは署名されており、変更されていませんか？到着時にハッシュ化され、名前に関係なくそのバイトを探します；それに関する情報は保持されません。
+  none: 'このバイトを持つ署名済みの文書はありません — 変更されたか、署名されていない。'
+  found: '署名済み、変更なし、[ #0 ] の封筒に入っています。'
+  hidden: あなたが関与していない封筒
+  name: 署名済み
+  sealed: 封印日
+
+ko:
+  page_title: '파일 확인'
+  page_icon: 'ph:bold/seal-check'
+  intro: '이 파일이 서명되었고 변경되지 않았습니까? 도착 시 해시가 생성되며 이름에 관계없이 바이트로 검색됩니다; 어떤 것도 저장되지 않습니다.'
+  none: '이 바이트를 정확히 가진 서명된 문서는 없습니다 — 변경되었거나 서명되지 않았습니다.'
+  found: '서명되었고, 변경되지 않은, %count% 봉투에 있습니다.'
+  hidden: '당신이 포함되지 않은 봉투'
+  name: 서명된
+  sealed: 봉인됨
+
+bn:
+  page_title: 'একটি ফাইল যাচাই করুন'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'এই ফাইলটি কি সই করা হয়েছে, অপরিবর্তিত? এটি আগমনের সময় হ্যাশ করা হয় এবং এর বাইট দ্বারা খোঁজা হয়, এর নাম যাই হোক; এর কিছুই রাখা হয় না।'
+  none: 'এই বাইটগুলো নিয়ে কোন সই করা নথি নেই — পরিবর্তিত, অথবা কখনো সই করা হয়নি।'
+  found: 'সই করা, অপরিবর্তিত, %count% খাম(এ)।'
+  hidden: 'একটি খাম যার আপনি অংশ নন'
+  name: 'সই করা হয়েছে'
+  sealed: 'মোহরবদ্ধ করা হয়েছে'
+
+th:
+  page_title: ตรวจสอบไฟล์
+  page_icon: 'ph:bold/seal-check'
+  intro: 'ไฟล์นี้เป็นไฟล์ที่มีลายเซ็นและไม่เปลี่ยนแปลงใช่ไหม? มันถูกแฮชเมื่อเข้ามาและค้นหาจากไบต์ของมัน ไม่ว่าจะมีชื่อว่าอะไร; ไม่มีข้อมูลใดๆ ของมันถูกเก็บไว้.'
+  none: 'ไม่มีเอกสารที่มีลายเซ็นที่มีไบต์เหล่านี้อย่างแน่นอน — มีการเปลี่ยนแปลง หรือไม่เคยมีลายเซ็น.'
+  found: 'มีลายเซ็นและไม่เปลี่ยนแปลงใน %count% ซอง.'
+  hidden: ซองที่คุณไม่ได้เป็นส่วนหนึ่ง
+  name: เซ็นชื่อว่า
+  sealed: ปิดผนึกเมื่อ
+
+de:
+  page_title: 'Eine Datei überprüfen'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Ist diese Datei eine, die signiert und unverändert ist? Sie wird bei Ankunft gehasht und nach ihren Bytes gesucht, unabhängig von ihrem Namen; nichts davon wird gespeichert.'
+  none: 'Kein signiertes Dokument hat genau diese Bytes — geändert oder nie signiert.'
+  found: 'Signiert, unverändert, in %count% Umschlag(ä).'
+  hidden: 'Ein Umschlag, an dem Sie nicht beteiligt sind'
+  name: 'Signiert als'
+  sealed: 'Versiegelt am'
+
+fi:
+  page_title: 'Varmista tiedosto'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Onko tämä tiedosto allekirjoitettu ja muuttumaton? Se tiivistetään saapuessaan ja sitä etsitään sen tuloista, riippumatta sen nimestä; mitään siitä ei säilytetä.'
+  none: 'Yhtään allekirjoitettua asiakirjaa, jolla on tarkalleen nämä tavut — muutettu tai koskaan allekirjoittamaton.'
+  found: 'Allekirjoitettu, muuttumaton, %count% kirjekuoressa.'
+  hidden: 'Kirjekuori, johon et kuulu'
+  name: 'Allekirjoitettu nimellä'
+  sealed: Tiivistetty
+
+ru:
+  page_title: 'Проверка файла'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Это файл, который был подписан и не изменён? Он хэшируется при получении и ищется по его байтам, независимо от названия; ничего из него не сохраняется.'
+  none: 'Нет подписанного документа с точно такими байтами — изменённого или никогда не подписанного.'
+  found: 'Подписан, не изменён, в %count% конверте(ах).'
+  hidden: 'Конверт, к которому вы не имеете доступа'
+  name: 'Подписан как'
+  sealed: Запечатан
+
+pl:
+  page_title: 'Zweryfikuj plik'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Czy ten plik jest podpisany, niezmieniony? Jest haszowany przy przyjęciu i wyszukiwany po swoich bajtach, niezależnie od jego nazwy; nic z niego nie jest przechowywane.'
+  none: 'Nie ma podpisanego dokumentu z dokładnie tymi bajtami — zmienionego lub nigdy niepodpisanego.'
+  found: 'Podpisany, niezmieniony, w %count% kopertach.'
+  hidden: 'Koperta, której nie jesteś częścią'
+  name: 'Podpisany jako'
+  sealed: 'Zamknięty w'
+
+es:
+  page_title: 'Verificar un archivo'
+  page_icon: 'ph:bold/seal-check'
+  intro: '¿Este archivo es uno que fue firmado y no ha cambiado? Se verifica al llegar y se busca por sus bytes, sin importar su nombre; no se guarda nada de él.'
+  none: 'No hay documento firmado que tenga exactamente estos bytes — cambiado o nunca firmado.'
+  found: 'Firmado, sin cambios, en %count% sobre(s).'
+  hidden: 'Un sobre del que no eres parte'
+  name: 'Firmado como'
+  sealed: 'Sellado el'
+
+it:
+  page_title: 'Verifica un file'
+  page_icon: 'ph:bold/seal-check'
+  intro: "Questo file è stato firmato, senza modifiche? Viene hashato all'arrivo e cercato per i suoi byte, qualunque sia il suo nome; nulla di esso viene conservato."
+  none: 'Nessun documento firmato ha esattamente questi byte — modificato, o mai firmato.'
+  found: 'Firmato, immutato, in %count% busta(e).'
+  hidden: 'Una busta di cui non fai parte'
+  name: 'Firmato come'
+  sealed: 'Sigillato il'
+
+pt_BR:
+  page_title: 'Verificar um arquivo'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Este arquivo foi assinado e não foi alterado? Ele é hash na chegada e procurado por seus bytes, independentemente do nome; nada dele é mantido.'
+  none: 'Nenhum documento assinado possui exatamente esses bytes — alterado ou nunca assinado.'
+  found: 'Assinado, inalterado, em %count% envelope(s).'
+  hidden: 'Um envelope do qual você não faz parte'
+  name: 'Assinado como'
+  sealed: 'Selado em'
+
+tr:
+  page_title: 'Bir dosyayı doğrula'
+  page_icon: 'ph:bold/seal-check'
+  intro: "Bu dosya imzalanmış ve değiştirilmemiş bir dosya mı? Varışta hash'lenir ve adı ne olursa olsun byte'ları ile aranır; ondan hiçbir şey saklanmaz."
+  none: "Bu byte'lara tam olarak sahip imzalı bir belge yok — değiştirilmiş ya da hiç imzalanmamış."
+  found: 'İmzalı, değişmemiş, %count% zarf(lar) içinde.'
+  hidden: 'Sizin parçası olmadığınız bir zarf'
+  name: 'İmzalı olarak'
+  sealed: 'Mühürlenmiş olarak'
+
+vi:
+  page_title: 'Xác minh tệp tin'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Tệp tin này có phải là tệp đã được ký và không thay đổi? Nó được băm khi đến và được tìm kiếm theo các byte của nó, bất kể tên gọi của nó; không có gì trong đó được giữ lại.'
+  none: 'Không có tài liệu nào được ký có đúng các byte này — đã thay đổi hoặc chưa bao giờ được ký.'
+  found: 'Đã được ký, không thay đổi, trong %count% phong bì.'
+  hidden: 'Một phong bì mà bạn không có phần'
+  name: 'Ký như'
+  sealed: 'Đã được niêm phong vào'
+
+id:
+  page_title: 'Verifikasi file'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Apakah file ini adalah file yang ditandatangani dan tidak diubah? File ini di-hash saat tiba dan dicari berdasarkan byte-nya, terlepas dari namanya; tidak ada yang disimpan darinya.'
+  none: 'Tidak ada dokumen yang ditandatangani memiliki byte ini persis — telah diubah, atau tidak pernah ditandatangani.'
+  found: 'Ditandatangani, tidak diubah, dalam %count% amplop.'
+  hidden: 'Sebuah amplop yang bukan bagianmu'
+  name: 'Ditandatangani sebagai'
+  sealed: 'Disegel pada'
+
+nl:
+  page_title: 'Controleer een bestand'
+  page_icon: 'ph:bold/seal-check'
+  intro: 'Is dit bestand een dat is ondertekend, onveranderd? Het wordt gehasht bij binnenkomst en gezocht op basis van zijn bytes, ongeacht de naam; er wordt niets van bewaard.'
+  none: 'Geen ondertekend document heeft precies deze bytes — veranderd, of nooit ondertekend.'
+  found: 'Ondertekend, onveranderd, in %count% envelop(pen).'
+  hidden: 'Een envelop waar je geen deel van uitmaakt'
+  name: 'Ondertekend als'
+  sealed: 'Afgesloten op'

@@ -18,3 +18,143 @@ zh:
       label: 一个文件
   action:
     submit: 查找它
+
+ar:
+  field:
+    file:
+      label: ملف
+  action:
+    submit: 'ابحث عنه'
+
+hi:
+  field:
+    file:
+      label: 'एक फ़ाइल'
+  action:
+    submit: 'इसे खोजें'
+
+he:
+  field:
+    file:
+      label: קובץ
+  action:
+    submit: 'חפש אותו'
+
+fa:
+  field:
+    file:
+      label: فایل
+  action:
+    submit: 'به دنبال آن بگردید'
+
+ur:
+  field:
+    file:
+      label: 'ایک فائل'
+  action:
+    submit: 'اسے تلاش کریں'
+
+ja:
+  field:
+    file:
+      label: ファイル
+  action:
+    submit: 探す
+
+ko:
+  field:
+    file:
+      label: 파일
+  action:
+    submit: 찾아보기
+
+bn:
+  field:
+    file:
+      label: 'একটি ফাইল'
+  action:
+    submit: 'এটি খুঁজুন'
+
+th:
+  field:
+    file:
+      label: ไฟล์
+  action:
+    submit: ค้นหาไฟล์นี้
+
+de:
+  field:
+    file:
+      label: 'Eine Datei'
+  action:
+    submit: 'Darauf suchen'
+
+fi:
+  field:
+    file:
+      label: Tiedosto
+  action:
+    submit: 'Etsi se'
+
+ru:
+  field:
+    file:
+      label: Файл
+  action:
+    submit: 'Искать его'
+
+pl:
+  field:
+    file:
+      label: Plik
+  action:
+    submit: 'Szukaj go'
+
+es:
+  field:
+    file:
+      label: 'Un archivo'
+  action:
+    submit: Búscalo
+
+it:
+  field:
+    file:
+      label: 'Un file'
+  action:
+    submit: Cercalo
+
+pt_BR:
+  field:
+    file:
+      label: 'Um arquivo'
+  action:
+    submit: 'Procure por ele'
+
+tr:
+  field:
+    file:
+      label: 'Bir dosya'
+  action:
+    submit: 'Onu bul'
+
+vi:
+  field:
+    file:
+      label: 'Một tệp'
+  action:
+    submit: 'Tìm kiếm nó'
+
+id:
+  field:
+    file:
+      label: 'Sebuah file'
+  action:
+    submit: 'Cari file itu'
+
+nl:
+  field:
+    file:
+      label: 'Een bestand'
+  action:
+    submit: 'Zoek ernaar'

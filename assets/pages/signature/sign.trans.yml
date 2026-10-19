@@ -36,3 +36,263 @@ zh:
   sign: 签署
   decline: 拒绝
   my_signature: 我的签名
+
+ar:
+  page_title: التوقيع
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'يُطلب توقيعك: %title%. اقرأ الوثائق، ثم وقّع أو اعتذر.'
+  signed: 'لقد وقعت. شكراً لك.'
+  declined: 'لقد اعتذرت عن التوقيع.'
+  not_yet: 'لم يُوقع الموقعون قبلك بعد؛ سيتم إبلاغك عندما يحين دورك.'
+  closed: 'هذه الظرف لم يعد ينتظر التوقيعات.'
+  documents: الوثائق
+  sign: وقع
+  decline: اعتذر
+  my_signature: توقيعي
+
+hi:
+  page_title: हस्ताक्षर
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'आपसे हस्ताक्षर की मांग की गई है: %title%. दस्तावेज़ पढ़ें, फिर हस्ताक्षर करें या अस्वीकार करें।'
+  signed: 'आपने हस्ताक्षर किया। धन्यवाद।'
+  declined: 'आपने हस्ताक्षर करने से मना किया।'
+  not_yet: 'आपसे पहले के हस्ताक्षरकर्ताओं ने अभी तक हस्ताक्षर नहीं किए हैं; जब आपकी बारी आएगी तो आपको बताया जाएगा।'
+  closed: 'यह लिफाफा अब हस्ताक्षरों की प्रतीक्षा नहीं कर रहा है।'
+  documents: दस्तावेज़
+  sign: 'हस्ताक्षर करें'
+  decline: 'अस्वीकृत करें'
+  my_signature: 'मेरा हस्ताक्षर'
+
+he:
+  page_title: חתימה
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'נדרשת החתימה שלך: %title%. קרא את המסמכים, ואז חתום או דחה.'
+  signed: 'חתמת. תודה.'
+  declined: 'דחית לחתום.'
+  not_yet: 'החותמים לפניך עדיין לא חתמו; תתעדכן כשתורך יגיע.'
+  closed: 'המעטפה הזו כבר לא מחכה לחתימות.'
+  documents: מסמכים
+  sign: חתום
+  decline: דחה
+  my_signature: 'החתימה שלי'
+
+fa:
+  page_title: امضا
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'امضای شما خواسته شده است: %title%. مدارک را بخوانید، سپس امضا کنید یا رد کنید.'
+  signed: 'شما امضا کردید. متشکرم.'
+  declined: 'شما امضا را رد کردید.'
+  not_yet: 'امضاکنندگان قبلی هنوز امضا نکرده‌اند؛ وقتی نوبت شما باشد به شما اطلاع داده می‌شود.'
+  closed: 'این پاکت دیگر منتظر امضا نیست.'
+  documents: مدارک
+  sign: امضا
+  decline: 'رد کردن'
+  my_signature: 'امضای من'
+
+ur:
+  page_title: دستخط
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'آپ کے دستخط کی درخواست کی گئی ہے: %title%. دستاویزات پڑھیں، پھر دستخط کریں یا انکار کریں۔'
+  signed: 'آپ نے دستخط کر دیے۔ شکریہ۔'
+  declined: 'آپ نے دستخط کرنے سے انکار کر دیا۔'
+  not_yet: 'آپ سے پہلے دستخط کرنے والوں نے ابھی تک دستخط نہیں کیے ہیں؛ جب آپ کی باری آئے گی تو آپ کو بتایا جائے گا۔'
+  closed: 'یہ لفافہ اب دستخط کا انتظار نہیں کر رہا۔'
+  documents: دستاویزات
+  sign: 'دستخط کریں'
+  decline: 'انکار کریں'
+  my_signature: 'میرے دستخط'
+
+ja:
+  page_title: 署名
+  page_icon: 'ph:bold/pen-nib'
+  intro: '署名が求められています: %title%。書類を読んで、署名するか拒否してください。'
+  signed: 署名しました。ありがとうございます。
+  declined: 署名を拒否しました。
+  not_yet: '前の署名者がまだ署名していません; あなたの順番が来たらお知らせします。'
+  closed: この封筒はもはや署名を待っていません。
+  documents: 書類
+  sign: 署名
+  decline: 拒否
+  my_signature: 私の署名
+
+ko:
+  page_title: 서명
+  page_icon: 'ph:bold/pen-nib'
+  intro: '서명이 요청되었습니다: %title%. 문서를 읽고 서명하거나 거부하세요.'
+  signed: '서명하셨습니다. 감사합니다.'
+  declined: '서명을 거부하셨습니다.'
+  not_yet: '당신 앞의 서명자들이 아직 서명하지 않았습니다; 당신의 차례가 오면 알려드립니다.'
+  closed: '이 봉투는 더 이상 서명을 기다리지 않습니다.'
+  documents: 문서
+  sign: 서명
+  decline: 거부
+  my_signature: '내 서명'
+
+bn:
+  page_title: স্বাক্ষর
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'আপনার স্বাক্ষর চাওয়া হয়েছে: %title%. নথিগুলো পড়ুন, তারপর স্বাক্ষর করুন বা অস্বীকার করুন।'
+  signed: 'আপনি স্বাক্ষর করেছেন। ধন্যবাদ।'
+  declined: 'আপনি স্বাক্ষর দিতে অস্বীকার করেছেন।'
+  not_yet: 'আপনার আগে যারা স্বাক্ষর করেছেন তারা এখনও স্বাক্ষর করেননি; যখন আপনার পালা হবে তখন আপনাকে জানানো হবে।'
+  closed: 'এই খামটি আর স্বাক্ষরের জন্য অপেক্ষা করছে না।'
+  documents: নথি
+  sign: 'স্বাক্ষর করুন'
+  decline: 'অস্বীকার করুন'
+  my_signature: 'আমার স্বাক্ষর'
+
+th:
+  page_title: ลายเซ็น
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'คุณต้องลงนาม: %title%. อ่านเอกสารแล้วลงนามหรือลงทะเบียนไม่ลงนาม.'
+  signed: 'คุณได้ลงนามแล้ว ขอบคุณ.'
+  declined: คุณไม่ลงนาม.
+  not_yet: 'ผู้ลงนามก่อนคุณยังไม่ได้ลงนาม; คุณจะได้รับข้อมูลเมื่อถึงตาคุณ.'
+  closed: ซองนี้ไม่รอการลงนามอีกต่อไป.
+  documents: เอกสาร
+  sign: ลงนาม
+  decline: ไม่ลงนาม
+  my_signature: ลายเซ็นของฉัน
+
+de:
+  page_title: Unterschrift
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Ihre Unterschrift wird benötigt: %title%. Lesen Sie die Dokumente und unterschreiben oder lehnen Sie ab.'
+  signed: 'Sie haben unterschrieben. Danke.'
+  declined: 'Sie haben die Unterschrift abgelehnt.'
+  not_yet: 'Die vorherigen Unterzeichner haben noch nicht unterschrieben; Sie werden informiert, wenn Sie dran sind.'
+  closed: 'Dieses Kuvert wartet nicht mehr auf Unterschriften.'
+  documents: Dokumente
+  sign: Unterschreiben
+  decline: Ablehnen
+  my_signature: 'Meine Unterschrift'
+
+fi:
+  page_title: Allekirjoitus
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Sinulta pyydetään allekirjoitusta: %title%. Lue asiakirjat ja allekirjoita tai kieltäydy.'
+  signed: 'Olet allekirjoittanut. Kiitos.'
+  declined: 'Kieltäydyit allekirjoittamasta.'
+  not_yet: 'Edelläsi olevat allekirjoittajat eivät ole vielä allekirjoittaneet; sinulle ilmoitetaan, kun on sinun vuorosi.'
+  closed: 'Tämä kuori ei enää odota allekirjoituksia.'
+  documents: Asiakirjat
+  sign: Allekirjoita
+  decline: Kieltäydy
+  my_signature: 'Oma allekirjoitukseni'
+
+ru:
+  page_title: Подпись
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Ваша подпись нужна: %title%. Ознакомьтесь с документами, затем подпишите или откажите.'
+  signed: 'Вы подписали. Спасибо.'
+  declined: 'Вы отказались подписывать.'
+  not_yet: 'Подписанты перед вами еще не подписали; вам сообщат, когда придет ваша очередь.'
+  closed: 'Этот конверт больше не ждет подписей.'
+  documents: Документы
+  sign: Подписать
+  decline: Отказаться
+  my_signature: 'Моя подпись'
+
+pl:
+  page_title: Podpis
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Twój podpis jest wymagany: %title%. Przeczytaj dokumenty, a następnie podpisz lub odmów.'
+  signed: 'Podpisałeś. Dziękujemy.'
+  declined: 'Odmówiłeś podpisania.'
+  not_yet: 'Podpisujący przed tobą jeszcze nie podpisali; zostaniesz poinformowany, kiedy nadejdzie twoja kolej.'
+  closed: 'Ta koperta nie czeka już na podpisy.'
+  documents: Dokumenty
+  sign: Podpisz
+  decline: Odmów
+  my_signature: 'Mój podpis'
+
+es:
+  page_title: Firma
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Se solicita su firma: %title%. Lea los documentos y luego firme o decline.'
+  signed: 'Has firmado. Gracias.'
+  declined: 'Has declinado firmar.'
+  not_yet: 'Los firmantes antes que tú aún no han firmado; se te informará cuando sea tu turno.'
+  closed: 'Este sobre ya no espera firmas.'
+  documents: Documentos
+  sign: Firmar
+  decline: Declinar
+  my_signature: 'Mi firma'
+
+it:
+  page_title: Firma
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'La tua firma è richiesta per: %title%. Leggi i documenti, poi firma o rifiuta.'
+  signed: 'Hai firmato. Grazie.'
+  declined: 'Hai rifiutato di firmare.'
+  not_yet: 'I firmatari prima di te non hanno ancora firmato; ti sarà comunicato quando sarà il tuo turno.'
+  closed: 'Questa busta non attende più firme.'
+  documents: Documenti
+  sign: Firma
+  decline: Rifiuta
+  my_signature: 'La mia firma'
+
+pt_BR:
+  page_title: Assinatura
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Sua assinatura é solicitada: %title%. Leia os documentos e, em seguida, assine ou recuse.'
+  signed: 'Você assinou. Obrigado.'
+  declined: 'Você recusou a assinatura.'
+  not_yet: 'Os assinantes antes de você ainda não assinaram; você será avisado quando for a sua vez.'
+  closed: 'Este envelope não aguarda mais assinaturas.'
+  documents: Documentos
+  sign: Assinar
+  decline: Recusar
+  my_signature: 'Minha assinatura'
+
+tr:
+  page_title: İmza
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'İmzanız isteniyor: %title%. Belgeleri okuyun, sonra imzalayın veya reddedin.'
+  signed: 'İmzaladınız. Teşekkür ederiz.'
+  declined: 'İmzalamaktan vazgeçtiniz.'
+  not_yet: 'Sizden önceki imzalayıcılar henüz imza atmadı; sıranız geldiğinde bilgilendirileceksiniz.'
+  closed: 'Bu zarf artık imza beklemiyor.'
+  documents: Belgeler
+  sign: 'İmza At'
+  decline: Reddet
+  my_signature: 'Benim imzam'
+
+vi:
+  page_title: 'Chữ ký'
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Bạn được yêu cầu ký: %title%. Đọc tài liệu, sau đó ký hoặc từ chối.'
+  signed: 'Bạn đã ký. Cảm ơn.'
+  declined: 'Bạn đã từ chối ký.'
+  not_yet: 'Những người ký trước bạn vẫn chưa ký; bạn sẽ được thông báo khi đến lượt bạn.'
+  closed: 'Bì thư này không còn chờ ký nữa.'
+  documents: 'Tài liệu'
+  sign: Ký
+  decline: 'Từ chối'
+  my_signature: 'Chữ ký của tôi'
+
+id:
+  page_title: 'Tanda Tangan'
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Tanda tangan Anda diminta untuk: %title%. Bacalah dokumen, lalu tanda tangani atau tolak.'
+  signed: 'Anda telah menandatangani. Terima kasih.'
+  declined: 'Anda menolak untuk menandatangani.'
+  not_yet: 'Penandatangan sebelumnya belum menandatangani; Anda akan diberitahu saat giliran Anda.'
+  closed: 'Amplop ini tidak lagi menunggu tanda tangan.'
+  documents: Dokumen
+  sign: Tandatangani
+  decline: Tolak
+  my_signature: 'Tanda tangan saya'
+
+nl:
+  page_title: Handtekening
+  page_icon: 'ph:bold/pen-nib'
+  intro: 'Uw handtekening wordt gevraagd voor: %title%. Lees de documenten en teken of weiger.'
+  signed: 'U heeft getekend. Bedankt.'
+  declined: 'U heeft geweigerd te tekenen.'
+  not_yet: 'De ondertekenaars voor u hebben nog niet getekend; u wordt geïnformeerd wanneer het uw beurt is.'
+  closed: 'Deze envelop wacht niet langer op handtekeningen.'
+  documents: Documenten
+  sign: Onderteken
+  decline: Weiger
+  my_signature: 'Mijn handtekening'

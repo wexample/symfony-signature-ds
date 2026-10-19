@@ -60,3 +60,423 @@ zh:
       not_your_turn: 您前面的签署人尚未签署。
       tampered: 自信封封存以来，文件已被更改。没有任何签署。
       duplicate_signer: 此地址已签署。
+
+ar:
+  field:
+    use_personal:
+      label: 'وقع بتوقيعي'
+    image:
+      label: 'أو صورة لتوقيعي'
+      help: 'PNG، JPEG أو WebP، حتى 2 ميغابايت. اختياري.'
+    agree:
+      label: 'لقد قرأت الوثائق وأوقع عليها'
+  action:
+    submit: توقيع
+  error:
+    refused:
+      not_a_draft: 'هذه الظرف مختوم: لم يعد بالإمكان تغييره.'
+      incomplete: 'هناك وثيقة واحدة على الأقل وموقع واحد في هذه الظرف المختوم.'
+      not_pending: 'هذه الظرف لم تعد تنتظر التوقيع.'
+      already_done: 'لقد قمت بالتوقيع أو الرفض بالفعل.'
+      not_your_turn: 'لم يوقع الموقعون قبلك بعد.'
+      tampered: 'تم تغيير وثيقة منذ أن تم ختم الظرف. لم يتم التوقيع على أي شيء.'
+      duplicate_signer: 'هذا العنوان قد قام بالتوقيع بالفعل.'
+
+hi:
+  field:
+    use_personal:
+      label: 'मेरे हस्ताक्षर के साथ साइन करें'
+    image:
+      label: 'या मेरे हस्ताक्षर की एक छवि'
+      help: 'PNG, JPEG या WebP, 2 MB तक। वैकल्पिक।'
+    agree:
+      label: 'मैंने दस्तावेज़ पढ़ लिए हैं और मैं उन पर साइन करता हूँ'
+  action:
+    submit: 'साइन करें'
+  error:
+    refused:
+      not_a_draft: 'यह लिफाफा बंद है: इसमें अब कोई बदलाव नहीं होता।'
+      incomplete: 'एक लिफाफा कम से कम एक दस्तावेज़ और एक हस्ताक्षरकर्ता के साथ बंद किया गया है।'
+      not_pending: 'यह लिफाफा अब हस्ताक्षरों की प्रतीक्षा नहीं कर रहा है।'
+      already_done: 'आपने पहले ही साइन या अस्वीकृत किया है।'
+      not_your_turn: 'आपसे पहले के हस्ताक्षरकर्ताओं ने अभी तक साइन नहीं किया है।'
+      tampered: 'एक दस्तावेज़ लिफाफा बंद होने के बाद बदला गया। कुछ भी साइन नहीं किया गया।'
+      duplicate_signer: 'यह पता पहले से ही साइन कर चुका है।'
+
+he:
+  field:
+    use_personal:
+      label: 'חתום עם החתימה שלי'
+    image:
+      label: 'או תמונה של החתימה שלי'
+      help: 'PNG, JPEG או WebP, עד 2 MB. אופציונלי.'
+    agree:
+      label: 'קראתי את המסמכים ואני חותם עליהם'
+  action:
+    submit: חתום
+  error:
+    refused:
+      not_a_draft: 'המעטפה הזו סגורה: היא לא יכולה להשתנות יותר.'
+      incomplete: 'מעטפה סגורה עם לפחות מסמך אחד וחתם אחד.'
+      not_pending: 'המעטפה הזו כבר לא מחכה לחתימות.'
+      already_done: 'כבר חתמת או סירבת.'
+      not_your_turn: 'החותמים לפניך עדיין לא חתמו.'
+      tampered: 'מסמך שונה מאז שהמעטפה סגורה. שום דבר לא נחתם.'
+      duplicate_signer: 'כתובת זו כבר חותמת.'
+
+fa:
+  field:
+    use_personal:
+      label: 'با امضای من امضا کن'
+    image:
+      label: 'یا تصویری از امضای من'
+      help: 'PNG، JPEG یا WebP، حداکثر ۲ مگابایت. اختیاری.'
+    agree:
+      label: 'من مدارک را خوانده‌ام و آنها را امضا می‌کنم'
+  action:
+    submit: 'امضا کردن'
+  error:
+    refused:
+      not_a_draft: 'این پاکت مهر و موم شده است: دیگر قابل تغییر نیست.'
+      incomplete: 'یک پاکت با حداقل یک سند و یک امضا کننده مهر و موم شده است.'
+      not_pending: 'این پاکت دیگر منتظر امضا نیست.'
+      already_done: 'شما قبلاً امضا کرده‌اید یا امضا را رد کرده‌اید.'
+      not_your_turn: 'امضا کنندگان قبلی هنوز امضا نکرده‌اند.'
+      tampered: 'سندی از زمان مهر و موم شدن پاکت تغییر کرده است. هیچ چیزی امضا نشده است.'
+      duplicate_signer: 'این آدرس قبلاً امضا کرده است.'
+
+ur:
+  field:
+    use_personal:
+      label: 'اپنی دستخط کے ساتھ دستخط کریں'
+    image:
+      label: 'یا اپنی دستخط کی تصویر'
+      help: 'PNG، JPEG یا WebP، 2 MB تک۔ اختیاری۔'
+    agree:
+      label: 'میں نے دستاویزات پڑھ لی ہیں اور میں ان پر دستخط کرتا ہوں'
+  action:
+    submit: 'دستخط کریں'
+  error:
+    refused:
+      not_a_draft: 'یہ لفافہ بند ہو چکا ہے: اسے اب تبدیل نہیں کیا جا سکتا۔'
+      incomplete: 'ایک لفافہ کم از کم ایک دستاویز اور ایک دستخط کنندہ کے ساتھ بند ہے۔'
+      not_pending: 'یہ لفافہ اب دستخطوں کے منتظر نہیں ہے۔'
+      already_done: 'آپ نے پہلے ہی دستخط یا انکار کر دیا ہے۔'
+      not_your_turn: 'آپ سے پہلے کے دستخط کنندگان نے ابھی تک دستخط نہیں کیے ہیں۔'
+      tampered: 'ایک دستاویز کو اس وقت تبدیل کیا گیا جب لفافہ بند ہو چکا تھا۔ کچھ بھی دستخط نہیں ہوا۔'
+      duplicate_signer: 'یہ پتہ پہلے ہی دستخط کر چکا ہے۔'
+
+ja:
+  field:
+    use_personal:
+      label: 私の署名でサインする
+    image:
+      label: または私の署名の画像
+      help: 'PNG、JPEG、またはWebP形式で、最大2 MB。オプションです。'
+    agree:
+      label: 私は文書を読み、それに署名します
+  action:
+    submit: サイン
+  error:
+    refused:
+      not_a_draft: この封筒は封印されています：もはや変更できません。
+      incomplete: 少なくとも1つの文書と1人の署名者がいる状態で封印されています。
+      not_pending: この封筒はもはや署名を待っていません。
+      already_done: すでに署名または拒否しています。
+      not_your_turn: あなたの前の署名者がまだ署名していません。
+      tampered: 封筒が封印されて以来、文書が変更されました。何も署名されていません。
+      duplicate_signer: このアドレスはすでに署名しています。
+
+ko:
+  field:
+    use_personal:
+      label: '내 서명으로 서명하기'
+    image:
+      label: '또는 내 서명의 이미지'
+      help: 'PNG, JPEG 또는 WebP, 최대 2 MB. 선택사항입니다.'
+    agree:
+      label: '문서를 읽었으며 서명합니다'
+  action:
+    submit: 서명
+  error:
+    refused:
+      not_a_draft: '이 봉투는 봉인되었습니다: 더 이상 변경할 수 없습니다.'
+      incomplete: '봉투는 최소한 하나의 문서와 하나의 서명자가 있어야 봉인됩니다.'
+      not_pending: '이 봉투는 더 이상 서명을 기다리지 않습니다.'
+      already_done: '이미 서명했거나 거부했습니다.'
+      not_your_turn: '당신 이전의 서명자들이 아직 서명하지 않았습니다.'
+      tampered: '봉투가 봉인된 후 문서가 변경되었습니다. 아무것도 서명되지 않았습니다.'
+      duplicate_signer: '이 주소는 이미 서명했습니다.'
+
+bn:
+  field:
+    use_personal:
+      label: 'আমার স্বাক্ষরের সাথে স্বাক্ষর করুন'
+    image:
+      label: 'অথবা আমার স্বাক্ষরের একটি ছবি'
+      help: 'PNG, JPEG অথবা WebP, ২ MB পর্যন্ত। ঐচ্ছিক।'
+    agree:
+      label: 'আমি নথিগুলি পড়েছি এবং আমি সেগুলি স্বাক্ষর করছি'
+  action:
+    submit: 'স্বাক্ষর করুন'
+  error:
+    refused:
+      not_a_draft: 'এই খামটি সীলমোহর করা হয়েছে: এটি আর পরিবর্তিত হবে না।'
+      incomplete: 'একটি খাম অন্তত একটি নথি এবং একজন স্বাক্ষরকারী সহ সীলমোহর করা হয়েছে।'
+      not_pending: 'এই খামটি এখন আর স্বাক্ষরের জন্য অপেক্ষা করছে না।'
+      already_done: 'আপনি ইতিমধ্যে স্বাক্ষর বা অস্বীকৃতি জানিয়েছেন।'
+      not_your_turn: 'আপনার আগে স্বাক্ষরকারীরা এখনও স্বাক্ষর করেননি।'
+      tampered: 'একটি নথি খামটি সীলমোহর হওয়ার পর পরিবর্তিত হয়েছে। কিছুই স্বাক্ষরিত হয়নি।'
+      duplicate_signer: 'এই ঠিকানা ইতিমধ্যে স্বাক্ষর করছে।'
+
+th:
+  field:
+    use_personal:
+      label: ลงชื่อด้วยลายเซ็นของฉัน
+    image:
+      label: หรือรูปภาพของลายเซ็นของฉัน
+      help: 'PNG, JPEG หรือ WebP ขนาดสูงสุด 2 MB ไม่บังคับ'
+    agree:
+      label: ฉันได้อ่านเอกสารและฉันลงชื่อแล้ว
+  action:
+    submit: ลงชื่อ
+  error:
+    refused:
+      not_a_draft: 'ซองนี้ถูกปิดผนึกแล้ว: ไม่สามารถเปลี่ยนแปลงได้อีกต่อไป'
+      incomplete: ซองถูกปิดผนึกพร้อมเอกสารอย่างน้อยหนึ่งฉบับและผู้ลงชื่อหนึ่งคน
+      not_pending: ซองนี้ไม่รอการลงชื่ออีกต่อไป
+      already_done: คุณได้ลงชื่อหรือลงทะเบียนปฏิเสธไปแล้ว
+      not_your_turn: ผู้ลงชื่อก่อนคุณยังไม่ได้ลงชื่อ
+      tampered: 'เอกสารถูกเปลี่ยนแปลงตั้งแต่ซองถูกปิดผนึก ไม่มีการลงชื่อใดๆ'
+      duplicate_signer: ที่อยู่นี้ได้ลงชื่อไปแล้ว.
+
+de:
+  field:
+    use_personal:
+      label: 'Mit meiner Unterschrift signieren'
+    image:
+      label: 'Oder ein Bild meiner Unterschrift'
+      help: 'PNG, JPEG oder WebP, bis zu 2 MB. Optional.'
+    agree:
+      label: 'Ich habe die Dokumente gelesen und unterschreibe sie'
+  action:
+    submit: Unterschreiben
+  error:
+    refused:
+      not_a_draft: 'Dieser Umschlag ist versiegelt: Er kann nicht mehr geändert werden.'
+      incomplete: 'Ein Umschlag ist versiegelt mit mindestens einem Dokument und einem Unterzeichner.'
+      not_pending: 'Dieser Umschlag wartet nicht mehr auf Unterschriften.'
+      already_done: 'Sie haben bereits unterschrieben oder abgelehnt.'
+      not_your_turn: 'Die Unterzeichner vor Ihnen haben noch nicht unterschrieben.'
+      tampered: 'Ein Dokument wurde geändert, seit der Umschlag versiegelt wurde. Es wurde nichts unterschrieben.'
+      duplicate_signer: 'Diese Adresse unterschreibt bereits.'
+
+fi:
+  field:
+    use_personal:
+      label: 'Allekirjoita omalla allekirjoituksellani'
+    image:
+      label: 'Tai kuvia allekirjoituksestani'
+      help: 'PNG, JPEG tai WebP, enintään 2 MB. Valinnainen.'
+    agree:
+      label: 'Olen lukenut asiakirjat ja allekirjoitan ne'
+  action:
+    submit: Allekirjoita
+  error:
+    refused:
+      not_a_draft: 'Tämä kuori on suljettu: sitä ei voi enää muuttaa.'
+      incomplete: 'Kuori on suljettu, kun siinä on vähintään yksi asiakirja ja yksi allekirjoittaja.'
+      not_pending: 'Tämä kuori ei enää odota allekirjoituksia.'
+      already_done: 'Olet jo allekirjoittanut tai kieltäytynyt.'
+      not_your_turn: 'Ennen sinua olevat allekirjoittajat eivät ole vielä allekirjoittaneet.'
+      tampered: 'Asiakirjaa on muutettu sen jälkeen, kun kuori suljettiin. Mitään ei ole allekirjoitettu.'
+      duplicate_signer: 'Tämä osoite on jo allekirjoittamassa.'
+
+ru:
+  field:
+    use_personal:
+      label: 'Подписать своей подписью'
+    image:
+      label: 'Или изображением моей подписи'
+      help: 'PNG, JPEG или WebP, до 2 МБ. Необязательно.'
+    agree:
+      label: 'Я ознакомился с документами и подписываю их'
+  action:
+    submit: Подписать
+  error:
+    refused:
+      not_a_draft: 'Этот конверт запечатан: он больше не может изменяться.'
+      incomplete: 'Конверт запечатан с как минимум одним документом и одним подписантом.'
+      not_pending: 'Этот конверт больше не ждет подписей.'
+      already_done: 'Вы уже подписали или отклонили.'
+      not_your_turn: 'Подписанты перед вами еще не подписали.'
+      tampered: 'Документ изменился с тех пор, как конверт был запечатан. Ничего не было подписано.'
+      duplicate_signer: 'Этот адрес уже подписывает.'
+
+pl:
+  field:
+    use_personal:
+      label: 'Podpisz moim podpisem'
+    image:
+      label: 'Lub obrazem mojego podpisu'
+      help: 'PNG, JPEG lub WebP, do 2 MB. Opcjonalne.'
+    agree:
+      label: 'Przeczytałem dokumenty i je podpisuję'
+  action:
+    submit: Podpisz
+  error:
+    refused:
+      not_a_draft: 'Ta koperta jest zamknięta: nie można już wprowadzać zmian.'
+      incomplete: 'Koperta jest zamknięta z co najmniej jednym dokumentem i jednym podpisującym.'
+      not_pending: 'Ta koperta nie czeka już na podpisy.'
+      already_done: 'Już podpisałeś lub odmówiłeś.'
+      not_your_turn: 'Podpisujący przed tobą jeszcze nie podpisali.'
+      tampered: 'Dokument został zmieniony od momentu zamknięcia koperty. Nic nie zostało podpisane.'
+      duplicate_signer: 'Ten adres już podpisuje.'
+
+es:
+  field:
+    use_personal:
+      label: 'Firmar con mi firma'
+    image:
+      label: 'O una imagen de mi firma'
+      help: 'PNG, JPEG o WebP, hasta 2 MB. Opcional.'
+    agree:
+      label: 'He leído los documentos y los firmo'
+  action:
+    submit: Firmar
+  error:
+    refused:
+      not_a_draft: 'Este sobre está sellado: ya no se puede modificar.'
+      incomplete: 'Un sobre está sellado con al menos un documento y un firmante.'
+      not_pending: 'Este sobre ya no espera firmas.'
+      already_done: 'Ya has firmado o rechazado.'
+      not_your_turn: 'Los firmantes anteriores a ti aún no han firmado.'
+      tampered: 'Un documento ha sido modificado desde que el sobre fue sellado. Nada fue firmado.'
+      duplicate_signer: 'Esta dirección ya firma.'
+
+it:
+  field:
+    use_personal:
+      label: 'Firma con la mia firma'
+    image:
+      label: "O un'immagine della mia firma"
+      help: 'PNG, JPEG o WebP, fino a 2 MB. Facoltativo.'
+    agree:
+      label: 'Ho letto i documenti e li firmo'
+  action:
+    submit: Firma
+  error:
+    refused:
+      not_a_draft: 'Questa busta è sigillata: non può più essere modificata.'
+      incomplete: 'Una busta è sigillata con almeno un documento e un firmatario.'
+      not_pending: 'Questa busta non aspetta più firme.'
+      already_done: 'Hai già firmato o rifiutato.'
+      not_your_turn: 'I firmatari prima di te non hanno ancora firmato.'
+      tampered: 'Un documento è stato modificato da quando la busta è stata sigillata. Nulla è stato firmato.'
+      duplicate_signer: 'Questo indirizzo ha già firmato.'
+
+pt_BR:
+  field:
+    use_personal:
+      label: 'Assinar com minha assinatura'
+    image:
+      label: 'Ou uma imagem da minha assinatura'
+      help: 'PNG, JPEG ou WebP, até 2 MB. Opcional.'
+    agree:
+      label: 'Li os documentos e os assino'
+  action:
+    submit: Assinar
+  error:
+    refused:
+      not_a_draft: 'Este envelope está selado: não pode mais ser alterado.'
+      incomplete: 'Um envelope está selado com pelo menos um documento e um signatário.'
+      not_pending: 'Este envelope não está mais aguardando assinaturas.'
+      already_done: 'Você já assinou ou recusou.'
+      not_your_turn: 'Os signatários anteriores a você ainda não assinaram.'
+      tampered: 'Um documento foi alterado desde que o envelope foi selado. Nada foi assinado.'
+      duplicate_signer: 'Este endereço já assina.'
+
+tr:
+  field:
+    use_personal:
+      label: 'İmzam ile imzala'
+    image:
+      label: 'Ya da imzamın bir resmi'
+      help: 'PNG, JPEG veya WebP, en fazla 2 MB. Opsiyonel.'
+    agree:
+      label: 'Belgeleri okudum ve imzalıyorum'
+  action:
+    submit: İmzala
+  error:
+    refused:
+      not_a_draft: 'Bu zarf mühürlendi: artık değişiklik yapamazsınız.'
+      incomplete: 'Bir belge ve bir imzalayıcı ile mühürlenmiş bir zarf var.'
+      not_pending: 'Bu zarf artık imza beklemiyor.'
+      already_done: 'Zaten imzaladınız ya da reddettiniz.'
+      not_your_turn: 'Sizden önceki imzalayıcılar henüz imza atmadı.'
+      tampered: 'Zarf mühürlendiğinden beri bir belge değiştirildi. Hiçbir şey imzalanmadı.'
+      duplicate_signer: 'Bu adres zaten imza atıyor.'
+
+vi:
+  field:
+    use_personal:
+      label: 'Ký bằng chữ ký của tôi'
+    image:
+      label: 'Hoặc hình ảnh chữ ký của tôi'
+      help: 'PNG, JPEG hoặc WebP, tối đa 2 MB. Tùy chọn.'
+    agree:
+      label: 'Tôi đã đọc các tài liệu và tôi ký chúng'
+  action:
+    submit: Ký
+  error:
+    refused:
+      not_a_draft: 'Bì thư này đã được niêm phong: nó không còn thay đổi nữa.'
+      incomplete: 'Một bì thư được niêm phong với ít nhất một tài liệu và một người ký.'
+      not_pending: 'Bì thư này không còn chờ các chữ ký.'
+      already_done: 'Bạn đã ký hoặc từ chối rồi.'
+      not_your_turn: 'Các người ký trước bạn chưa ký.'
+      tampered: 'Một tài liệu đã bị thay đổi kể từ khi bì thư được niêm phong. Không có gì được ký.'
+      duplicate_signer: 'Địa chỉ này đã ký rồi.'
+
+id:
+  field:
+    use_personal:
+      label: 'Tandatangani dengan tanda tangan saya'
+    image:
+      label: 'Atau gambar tanda tangan saya'
+      help: 'PNG, JPEG atau WebP, hingga 2 MB. Opsional.'
+    agree:
+      label: 'Saya telah membaca dokumen dan saya menandatanganinya'
+  action:
+    submit: Tandatangani
+  error:
+    refused:
+      not_a_draft: 'Amplop ini telah disegel: tidak dapat diubah lagi.'
+      incomplete: 'Sebuah amplop disegel dengan setidaknya satu dokumen dan satu penandatangan.'
+      not_pending: 'Amplop ini tidak lagi menunggu tanda tangan.'
+      already_done: 'Anda sudah menandatangani atau menolak.'
+      not_your_turn: 'Penandatangan sebelumnya belum menandatangani.'
+      tampered: 'Sebuah dokumen telah diubah sejak amplop disegel. Tidak ada yang ditandatangani.'
+      duplicate_signer: 'Alamat ini sudah menandatangani.'
+
+nl:
+  field:
+    use_personal:
+      label: 'Onderteken met mijn handtekening'
+    image:
+      label: 'Of een afbeelding van mijn handtekening'
+      help: 'PNG, JPEG of WebP, tot 2 MB. Optioneel.'
+    agree:
+      label: 'Ik heb de documenten gelezen en ik teken ze'
+  action:
+    submit: Ondertekenen
+  error:
+    refused:
+      not_a_draft: 'Deze envelop is verzegeld: hij kan niet meer worden gewijzigd.'
+      incomplete: 'Een envelop is verzegeld met ten minste één document en één ondertekenaar.'
+      not_pending: 'Deze envelop wacht niet meer op handtekeningen.'
+      already_done: 'Je hebt al ondertekend of afgewezen.'
+      not_your_turn: 'De ondertekenaars voor jou hebben nog niet getekend.'
+      tampered: 'Een document is gewijzigd sinds de envelop werd verzegeld. Niets is ondertekend.'
+      duplicate_signer: 'Dit adres ondertekent al.'

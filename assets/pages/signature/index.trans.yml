@@ -93,3 +93,643 @@ zh:
     declined: 已拒绝
     awaited: 等待中
     waiting: 等待轮到它
+
+ar:
+  page_title: التوقيعات
+  page_icon: 'ph:bold/signature'
+  create: 'ظرف جديد'
+  tab:
+    envelopes: الأظرف
+    verify: 'تحقق من ملف'
+    personal: توقيعي
+  to_sign:
+    title: للتوقيع
+    empty: 'لا شيء ينتظر توقيعك.'
+  sent:
+    title: المُرسل
+    empty: 'لم ترسل أي ظرف.'
+  column:
+    envelope: ظرف
+    status: الحالة
+    signed: موقع
+    date: 'تاريخ الإنشاء'
+  status:
+    draft: مسودة
+    pending: 'في انتظار التوقيع'
+    completed: 'موقع من الجميع'
+    declined: مرفوض
+    cancelled: ملغي
+    expired: 'منتهي الصلاحية'
+  signer:
+    signed: موقع
+    declined: مرفوض
+    awaited: مطلوب
+    waiting: 'ينتظر دوره'
+
+hi:
+  page_title: हस्ताक्षर
+  page_icon: 'ph:bold/signature'
+  create: 'नया लिफाफा'
+  tab:
+    envelopes: लिफाफे
+    verify: 'एक फ़ाइल की पुष्टि करें'
+    personal: 'मेरा हस्ताक्षर'
+  to_sign:
+    title: 'हस्ताक्षर करने के लिए'
+    empty: 'आपके हस्ताक्षर की प्रतीक्षा में कुछ नहीं है।'
+  sent:
+    title: 'भेजा गया'
+    empty: 'आपने कोई लिफाफा नहीं भेजा है।'
+  column:
+    envelope: लिफाफा
+    status: स्थिति
+    signed: हस्ताक्षरित
+    date: निर्मित
+  status:
+    draft: ड्राफ्ट
+    pending: 'हस्ताक्षरों की प्रतीक्षा में'
+    completed: 'सभी द्वारा हस्ताक्षरित'
+    declined: अस्वीकृत
+    cancelled: 'रद्द किया गया'
+    expired: 'समय समाप्त'
+  signer:
+    signed: हस्ताक्षरित
+    declined: अस्वीकृत
+    awaited: प्रतीक्षित
+    waiting: 'अपनी बारी की प्रतीक्षा कर रहा है'
+
+he:
+  page_title: חתימות
+  page_icon: 'ph:bold/signature'
+  create: 'מעטפה חדשה'
+  tab:
+    envelopes: מעטפות
+    verify: 'אמת קובץ'
+    personal: 'החתימה שלי'
+  to_sign:
+    title: לחתימה
+    empty: 'אין דבר הממתין לחתימתך.'
+  sent:
+    title: נשלח
+    empty: 'לא שלחת אף מעטפה.'
+  column:
+    envelope: מעטפה
+    status: סטטוס
+    signed: חתום
+    date: נוצר
+  status:
+    draft: טיוטה
+    pending: 'ממתין לחתימות'
+    completed: 'חתום על ידי כולם'
+    declined: נדחה
+    cancelled: בוטל
+    expired: 'פג תוקף'
+  signer:
+    signed: חתום
+    declined: נדחה
+    awaited: ממתין
+    waiting: 'ממתין לתורו'
+
+fa:
+  page_title: امضاها
+  page_icon: 'ph:bold/signature'
+  create: 'پاکت جدید'
+  tab:
+    envelopes: پاکت‌ها
+    verify: 'تایید یک فایل'
+    personal: 'امضای من'
+  to_sign:
+    title: 'برای امضا'
+    empty: 'هیچ چیزی منتظر امضای شما نیست.'
+  sent:
+    title: 'ارسال شده'
+    empty: 'شما هیچ پاکتی ارسال نکرده‌اید.'
+  column:
+    envelope: پاکت
+    status: وضعیت
+    signed: 'امضا شده'
+    date: 'ایجاد شده'
+  status:
+    draft: پیش‌نویس
+    pending: 'منتظر امضاها'
+    completed: 'توسط همه امضا شده'
+    declined: 'رد شده'
+    cancelled: 'لغو شده'
+    expired: 'منقضی شده'
+  signer:
+    signed: 'امضا شده'
+    declined: 'رد شده'
+    awaited: منتظر
+    waiting: 'منتظر نوبت خود'
+
+ur:
+  page_title: دستخط
+  page_icon: 'ph:bold/signature'
+  create: 'نیا لفافہ'
+  tab:
+    envelopes: لفافے
+    verify: 'فائل کی تصدیق کریں'
+    personal: 'میرا دستخط'
+  to_sign:
+    title: 'دستخط کرنے کے لئے'
+    empty: 'آپ کے دستخط کا انتظار کرنے کے لئے کچھ نہیں ہے۔'
+  sent:
+    title: 'بھیجا گیا'
+    empty: 'آپ نے کوئی لفافہ نہیں بھیجا۔'
+  column:
+    envelope: لفافہ
+    status: حالت
+    signed: 'دستخط شدہ'
+    date: 'تاریخ تخلیق'
+  status:
+    draft: مسودہ
+    pending: 'دستخط کا انتظار ہے'
+    completed: 'سب نے دستخط کر دیے'
+    declined: 'رد کر دیا گیا'
+    cancelled: 'منسوخ کر دیا گیا'
+    expired: 'میعاد ختم'
+  signer:
+    signed: 'دستخط کر دیا'
+    declined: 'رد کر دیا'
+    awaited: 'انتظار میں'
+    waiting: 'اپنی باری کا انتظار کر رہا ہے'
+
+ja:
+  page_title: 署名
+  page_icon: 'ph:bold/signature'
+  create: 新しい封筒
+  tab:
+    envelopes: 封筒
+    verify: ファイルを確認
+    personal: 私の署名
+  to_sign:
+    title: 署名する
+    empty: 署名を待っているものはありません。
+  sent:
+    title: 送信済み
+    empty: 送信した封筒はありません。
+  column:
+    envelope: 封筒
+    status: 状態
+    signed: 署名済み
+    date: 作成日
+  status:
+    draft: 下書き
+    pending: 署名待ち
+    completed: 全員署名済み
+    declined: 辞退
+    cancelled: キャンセル
+    expired: 期限切れ
+  signer:
+    signed: 署名済み
+    declined: 辞退
+    awaited: 待機中
+    waiting: 順番を待っています
+
+ko:
+  page_title: 서명
+  page_icon: 'ph:bold/signature'
+  create: '새로운 봉투'
+  tab:
+    envelopes: 봉투
+    verify: '파일 확인'
+    personal: '내 서명'
+  to_sign:
+    title: '서명할 항목'
+    empty: '서명을 기다리는 항목이 없습니다.'
+  sent:
+    title: 발송됨
+    empty: '보낸 봉투가 없습니다.'
+  column:
+    envelope: 봉투
+    status: 상태
+    signed: 서명됨
+    date: 생성됨
+  status:
+    draft: 초안
+    pending: '서명을 기다리는 중'
+    completed: '모두 서명됨'
+    declined: 거부됨
+    cancelled: 취소됨
+    expired: 만료됨
+  signer:
+    signed: 서명됨
+    declined: 거부됨
+    awaited: '기다리는 중'
+    waiting: '차례를 기다리는 중'
+
+bn:
+  page_title: স্বাক্ষর
+  page_icon: 'ph:bold/signature'
+  create: 'নতুন খাম'
+  tab:
+    envelopes: খাম
+    verify: 'একটি ফাইল যাচাই করুন'
+    personal: 'আমার স্বাক্ষর'
+  to_sign:
+    title: 'স্বাক্ষরের জন্য'
+    empty: 'আপনার স্বাক্ষরের জন্য কিছুই অপেক্ষা করছে না।'
+  sent:
+    title: 'পাঠানো হয়েছে'
+    empty: 'আপনি কোনও খাম পাঠাননি।'
+  column:
+    envelope: খাম
+    status: অবস্থা
+    signed: স্বাক্ষরিত
+    date: 'তৈরি করা হয়েছে'
+  status:
+    draft: খসড়া
+    pending: 'স্বাক্ষরের অপেক্ষায়'
+    completed: 'সব দ্বারা স্বাক্ষরিত'
+    declined: 'অস্বীকার করা হয়েছে'
+    cancelled: 'বাতিল করা হয়েছে'
+    expired: 'মেয়াদ শেষ হয়েছে'
+  signer:
+    signed: স্বাক্ষরিত
+    declined: 'অস্বীকার করা হয়েছে'
+    awaited: 'অপেক্ষায় আছে'
+    waiting: 'এর পালার জন্য অপেক্ষা করছে'
+
+th:
+  page_title: ลายเซ็น
+  page_icon: 'ph:bold/signature'
+  create: ซองใหม่
+  tab:
+    envelopes: ซอง
+    verify: ตรวจสอบไฟล์
+    personal: ลายเซ็นของฉัน
+  to_sign:
+    title: เพื่อเซ็น
+    empty: ไม่มีอะไรที่รอให้คุณเซ็น
+  sent:
+    title: ส่งแล้ว
+    empty: คุณยังไม่ได้ส่งซองใดๆ
+  column:
+    envelope: ซอง
+    status: สถานะ
+    signed: เซ็นแล้ว
+    date: สร้างเมื่อ
+  status:
+    draft: ร่าง
+    pending: รอการเซ็น
+    completed: เซ็นโดยทุกคน
+    declined: ปฏิเสธ
+    cancelled: ถูกยกเลิก
+    expired: หมดอายุ
+  signer:
+    signed: เซ็นแล้ว
+    declined: ปฏิเสธ
+    awaited: รอ
+    waiting: รอคิว
+
+de:
+  page_title: Signaturen
+  page_icon: 'ph:bold/signature'
+  create: 'Neues Kuvert'
+  tab:
+    envelopes: Kuverts
+    verify: 'Eine Datei überprüfen'
+    personal: 'Meine Unterschrift'
+  to_sign:
+    title: 'Zu unterschreiben'
+    empty: 'Es wartet nichts auf Ihre Unterschrift.'
+  sent:
+    title: Gesendet
+    empty: 'Sie haben kein Kuvert gesendet.'
+  column:
+    envelope: Kuvert
+    status: Status
+    signed: Unterschrieben
+    date: Erstellt
+  status:
+    draft: Entwurf
+    pending: 'Wartet auf Unterschriften'
+    completed: 'Von allen unterschrieben'
+    declined: Abgelehnt
+    cancelled: Storniert
+    expired: Abgelaufen
+  signer:
+    signed: Unterschrieben
+    declined: Abgelehnt
+    awaited: Erwartet
+    waiting: 'Wartet auf seinen Turn'
+
+fi:
+  page_title: Allekirjoitukset
+  page_icon: 'ph:bold/signature'
+  create: 'Uusi kuori'
+  tab:
+    envelopes: Kuoret
+    verify: 'Tarkista tiedosto'
+    personal: 'Oma allekirjoitus'
+  to_sign:
+    title: Allekirjoitettavaksi
+    empty: 'Mikään ei odota allekirjoitustasi.'
+  sent:
+    title: Lähetetty
+    empty: 'Et ole lähettänyt yhtään kuorta.'
+  column:
+    envelope: Kuori
+    status: Tila
+    signed: Allekirjoitettu
+    date: Luotu
+  status:
+    draft: Luonnos
+    pending: 'Odottaa allekirjoituksia'
+    completed: 'Kaikki ovat allekirjoittaneet'
+    declined: Hylätty
+    cancelled: Peruutettu
+    expired: Vanhentunut
+  signer:
+    signed: Allekirjoitettu
+    declined: Hylätty
+    awaited: Odotettu
+    waiting: 'Odottaa vuoroaan'
+
+ru:
+  page_title: Подписи
+  page_icon: 'ph:bold/signature'
+  create: 'Новое письмо'
+  tab:
+    envelopes: Письма
+    verify: 'Проверить файл'
+    personal: 'Моя подпись'
+  to_sign:
+    title: 'Для подписи'
+    empty: 'Нет ожидающих вашей подписи.'
+  sent:
+    title: Отправлено
+    empty: 'Вы не отправили ни одного письма.'
+  column:
+    envelope: Письмо
+    status: Статус
+    signed: Подписано
+    date: Создано
+  status:
+    draft: Черновик
+    pending: 'Ожидание подписей'
+    completed: 'Подписано всеми'
+    declined: Отклонено
+    cancelled: Отменено
+    expired: 'Истек срок'
+  signer:
+    signed: Подписано
+    declined: Отклонено
+    awaited: Ожидает
+    waiting: 'Ждет своей очереди'
+
+pl:
+  page_title: Podpisy
+  page_icon: 'ph:bold/signature'
+  create: 'Nowa koperta'
+  tab:
+    envelopes: Koperty
+    verify: 'Zweryfikuj plik'
+    personal: 'Mój podpis'
+  to_sign:
+    title: 'Do podpisania'
+    empty: 'Nic nie czeka na twój podpis.'
+  sent:
+    title: Wysłane
+    empty: 'Nie wysłałeś żadnej koperty.'
+  column:
+    envelope: Koperta
+    status: Stan
+    signed: Podpisano
+    date: Utworzono
+  status:
+    draft: Szkic
+    pending: 'Oczekujące na podpisy'
+    completed: 'Podpisano przez wszystkich'
+    declined: Odrzucono
+    cancelled: Anulowane
+    expired: Wygasło
+  signer:
+    signed: Podpisano
+    declined: Odrzucono
+    awaited: Oczekiwane
+    waiting: 'Czeka na swoją kolej'
+
+es:
+  page_title: Firmas
+  page_icon: 'ph:bold/signature'
+  create: 'Nuevo sobre'
+  tab:
+    envelopes: Sobres
+    verify: 'Verificar un archivo'
+    personal: 'Mi firma'
+  to_sign:
+    title: 'Para firmar'
+    empty: 'Nada espera tu firma.'
+  sent:
+    title: Enviados
+    empty: 'No has enviado ningún sobre.'
+  column:
+    envelope: Sobre
+    status: Estado
+    signed: Firmado
+    date: Creado
+  status:
+    draft: Borrador
+    pending: 'Esperando firmas'
+    completed: 'Firmado por todos'
+    declined: Rechazado
+    cancelled: Cancelado
+    expired: Caducado
+  signer:
+    signed: Firmado
+    declined: Rechazado
+    awaited: Esperado
+    waiting: 'Espera su turno'
+
+it:
+  page_title: Firme
+  page_icon: 'ph:bold/signature'
+  create: 'Nuovo documento'
+  tab:
+    envelopes: Documenti
+    verify: 'Verifica un file'
+    personal: 'La mia firma'
+  to_sign:
+    title: 'Da firmare'
+    empty: 'Nessun documento in attesa della tua firma.'
+  sent:
+    title: Inviati
+    empty: 'Non hai inviato alcun documento.'
+  column:
+    envelope: Documento
+    status: Stato
+    signed: Firmato
+    date: Creato
+  status:
+    draft: Bozza
+    pending: 'In attesa di firme'
+    completed: 'Firmato da tutti'
+    declined: Rifiutato
+    cancelled: Annullato
+    expired: Scaduto
+  signer:
+    signed: Firmato
+    declined: Rifiutato
+    awaited: 'In attesa'
+    waiting: 'Aspetta il suo turno'
+
+pt_BR:
+  page_title: Assinaturas
+  page_icon: 'ph:bold/signature'
+  create: 'Novo envelope'
+  tab:
+    envelopes: Envelopes
+    verify: 'Verificar um arquivo'
+    personal: 'Minha assinatura'
+  to_sign:
+    title: 'Para assinar'
+    empty: 'Nada aguarda sua assinatura.'
+  sent:
+    title: Enviados
+    empty: 'Você não enviou nenhum envelope.'
+  column:
+    envelope: Envelope
+    status: Status
+    signed: Assinado
+    date: Criado
+  status:
+    draft: Rascunho
+    pending: 'Aguardando assinaturas'
+    completed: 'Assinado por todos'
+    declined: Recusado
+    cancelled: Cancelado
+    expired: Expirado
+  signer:
+    signed: Assinado
+    declined: Recusado
+    awaited: Aguardando
+    waiting: 'Aguarda sua vez'
+
+tr:
+  page_title: İmzalar
+  page_icon: 'ph:bold/signature'
+  create: 'Yeni zarf'
+  tab:
+    envelopes: Zarf
+    verify: 'Bir dosyayı doğrula'
+    personal: 'Benim imzam'
+  to_sign:
+    title: 'İmzalamak için'
+    empty: 'İmzanızı bekleyen hiçbir şey yok.'
+  sent:
+    title: Gönderildi
+    empty: 'Hiç zarf göndermediniz.'
+  column:
+    envelope: Zarf
+    status: Durum
+    signed: İmzalandı
+    date: 'Oluşturulma tarihi'
+  status:
+    draft: Taslak
+    pending: 'İmzaları bekliyor'
+    completed: 'Herkes tarafından imzalandı'
+    declined: Reddedildi
+    cancelled: 'İptal edildi'
+    expired: 'Süresi dolmuş'
+  signer:
+    signed: İmzalandı
+    declined: Reddedildi
+    awaited: Bekleniyor
+    waiting: 'Sırasını bekliyor'
+
+vi:
+  page_title: 'Chữ ký'
+  page_icon: 'ph:bold/signature'
+  create: 'Thư mới'
+  tab:
+    envelopes: Thư
+    verify: 'Xác minh tệp'
+    personal: 'Chữ ký của tôi'
+  to_sign:
+    title: 'Để ký'
+    empty: 'Không có gì chờ bạn ký.'
+  sent:
+    title: 'Đã gửi'
+    empty: 'Bạn chưa gửi thư nào.'
+  column:
+    envelope: Thư
+    status: 'Trạng thái'
+    signed: 'Đã ký'
+    date: 'Đã tạo'
+  status:
+    draft: 'Bản nháp'
+    pending: 'Chờ ký'
+    completed: 'Đã ký bởi tất cả'
+    declined: 'Đã từ chối'
+    cancelled: 'Đã hủy'
+    expired: 'Đã hết hạn'
+  signer:
+    signed: 'Đã ký'
+    declined: 'Đã từ chối'
+    awaited: 'Đang chờ'
+    waiting: 'Chờ đến lượt'
+
+id:
+  page_title: 'Tanda Tangan'
+  page_icon: 'ph:bold/signature'
+  create: 'Amplop Baru'
+  tab:
+    envelopes: Amplop
+    verify: 'Verifikasi file'
+    personal: 'Tanda tangan saya'
+  to_sign:
+    title: 'Untuk ditandatangani'
+    empty: 'Tidak ada yang menunggu tanda tangan Anda.'
+  sent:
+    title: Terkirim
+    empty: 'Anda belum mengirimkan amplop.'
+  column:
+    envelope: Amplop
+    status: Status
+    signed: Ditandatangani
+    date: Dibuat
+  status:
+    draft: Draf
+    pending: 'Menunggu tanda tangan'
+    completed: 'Ditandatangani oleh semua'
+    declined: Ditolak
+    cancelled: Dibatalkan
+    expired: Kedaluwarsa
+  signer:
+    signed: Ditandatangani
+    declined: Ditolak
+    awaited: Menunggu
+    waiting: 'Menunggu giliran'
+
+nl:
+  page_title: Handtekeningen
+  page_icon: 'ph:bold/signature'
+  create: 'Nieuwe envelop'
+  tab:
+    envelopes: Enveloppen
+    verify: 'Verifieer een bestand'
+    personal: 'Mijn handtekening'
+  to_sign:
+    title: 'Te ondertekenen'
+    empty: 'Er wacht niets op uw handtekening.'
+  sent:
+    title: Verzonden
+    empty: 'U heeft geen envelop verzonden.'
+  column:
+    envelope: Envelop
+    status: Status
+    signed: Ondertekend
+    date: Aangemaakt
+  status:
+    draft: Concept
+    pending: 'Wacht op handtekeningen'
+    completed: 'Door iedereen ondertekend'
+    declined: Afgewezen
+    cancelled: Geannuleerd
+    expired: Verlopen
+  signer:
+    signed: Ondertekend
+    declined: Afgewezen
+    awaited: Afgewacht
+    waiting: 'Wacht op zijn beurt'

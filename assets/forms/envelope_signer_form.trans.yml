@@ -51,3 +51,363 @@ zh:
       not_your_turn: 您之前的签署人尚未签名。
       tampered: 自信封封存以来，文档已经更改。没有任何内容被签署。
       duplicate_signer: 此地址已签署。
+
+ar:
+  field:
+    email:
+      label: العنوان
+    name:
+      label: الاسم
+  action:
+    submit: 'إضافة الموقّع'
+  error:
+    refused:
+      not_a_draft: 'هذا الظرف مختوم: لا يمكن تغييره بعد الآن.'
+      incomplete: 'تم ختم ظرف يحتوي على مستند واحد على الأقل وموقّع واحد.'
+      not_pending: 'هذا الظرف لم يعد ينتظر التوقيعات.'
+      already_done: 'لقد قمت بالتوقيع أو الرفض بالفعل.'
+      not_your_turn: 'لم يوقع الموقّعون قبلك بعد.'
+      tampered: 'تم تغيير مستند منذ أن تم ختم الظرف. لم يتم التوقيع على أي شيء.'
+      duplicate_signer: 'هذا العنوان قد وقع بالفعل.'
+
+hi:
+  field:
+    email:
+      label: पता
+    name:
+      label: नाम
+  action:
+    submit: 'साइनर जोड़ें'
+  error:
+    refused:
+      not_a_draft: 'यह लिफाफा सील हो चुका है: अब इसमें बदलाव नहीं हो सकते।'
+      incomplete: 'एक लिफाफा कम से कम एक दस्तावेज़ और एक साइनर के साथ सील होता है।'
+      not_pending: 'यह लिफाफा अब हस्ताक्षरों का इंतज़ार नहीं कर रहा है।'
+      already_done: 'आप पहले ही साइन या अस्वीकार कर चुके हैं।'
+      not_your_turn: 'आपसे पहले के साइनर्स ने अभी तक साइन नहीं किया है।'
+      tampered: 'एक दस्तावेज़ लिफाफा सील होने के बाद बदल गया। कुछ भी साइन नहीं हुआ।'
+      duplicate_signer: 'यह पता पहले ही साइन कर चुका है।'
+
+he:
+  field:
+    email:
+      label: כתובת
+    name:
+      label: שם
+  action:
+    submit: 'הוסף את החותם'
+  error:
+    refused:
+      not_a_draft: 'המעטפה הזו סגורה: היא לא יכולה להשתנות יותר.'
+      incomplete: 'המעטפה סגורה עם לפחות מסמך אחד וחותם אחד.'
+      not_pending: 'המעטפה הזו כבר לא מחכה לחתימות.'
+      already_done: 'כבר חתמת או סירבת.'
+      not_your_turn: 'החותמים שלפניך עדיין לא חתמו.'
+      tampered: 'מסמך שונה מאז שהמעטפה נסגרה. שום דבר לא נחתם.'
+      duplicate_signer: 'כתובת זו כבר חתמה.'
+
+fa:
+  field:
+    email:
+      label: آدرس
+    name:
+      label: نام
+  action:
+    submit: 'امضاکننده را اضافه کنید'
+  error:
+    refused:
+      not_a_draft: 'این پاکت مهر و موم شده است: دیگر قابل تغییر نیست.'
+      incomplete: 'یک پاکت با حداقل یک سند و یک امضاکننده مهر و موم شده است.'
+      not_pending: 'این پاکت دیگر منتظر امضا نیست.'
+      already_done: 'شما قبلاً امضا کرده‌اید یا رد کرده‌اید.'
+      not_your_turn: 'امضاکنندگان قبل از شما هنوز امضا نکرده‌اند.'
+      tampered: 'یک سند از زمان مهر و موم شدن پاکت تغییر کرده است. هیچ چیزی امضا نشده است.'
+      duplicate_signer: 'این آدرس قبلاً امضا شده است.'
+
+ur:
+  field:
+    email:
+      label: ایڈریس
+    name:
+      label: نام
+  action:
+    submit: 'دستخط کنندہ شامل کریں'
+  error:
+    refused:
+      not_a_draft: 'یہ لفافہ بند ہے: یہ اب تبدیل نہیں ہوتا۔'
+      incomplete: 'ایک لفافہ کم از کم ایک دستاویز اور ایک دستخط کنندہ کے ساتھ بند ہے۔'
+      not_pending: 'یہ لفافہ اب دستخط کے لیے انتظار نہیں کر رہا۔'
+      already_done: 'آپ نے پہلے ہی دستخط کیے ہیں یا انکار کیا ہے۔'
+      not_your_turn: 'آپ سے پہلے کے دستخط کنندگان نے ابھی دستخط نہیں کیے ہیں۔'
+      tampered: 'ایک دستاویز میں تبدیلی کی گئی ہے جب لفافہ بند کیا گیا تھا۔ کچھ بھی دستخط نہیں ہوا۔'
+      duplicate_signer: 'یہ ایڈریس پہلے ہی دستخط کر چکا ہے۔'
+
+ja:
+  field:
+    email:
+      label: アドレス
+    name:
+      label: 名前
+  action:
+    submit: 署名者を追加
+  error:
+    refused:
+      not_a_draft: この封筒は封印されています：もはや変更できません。
+      incomplete: 封筒には少なくとも1つの文書と1人の署名者が封印されています。
+      not_pending: この封筒はもはや署名を待っていません。
+      already_done: すでに署名または拒否しています。
+      not_your_turn: あなたの前の署名者がまだ署名していません。
+      tampered: 封筒が封印されて以来、文書が変更されました。何も署名されていません。
+      duplicate_signer: このアドレスはすでに署名しています。
+
+ko:
+  field:
+    email:
+      label: 주소
+    name:
+      label: 이름
+  action:
+    submit: '서명자 추가'
+  error:
+    refused:
+      not_a_draft: '이 봉투는 밀봉되었습니다: 더 이상 변경할 수 없습니다.'
+      incomplete: '봉투는 최소한 하나의 문서와 하나의 서명자로 밀봉되었습니다.'
+      not_pending: '이 봉투는 더 이상 서명을 기다리지 않습니다.'
+      already_done: '이미 서명하거나 거부하셨습니다.'
+      not_your_turn: '당신보다 앞선 서명자가 아직 서명하지 않았습니다.'
+      tampered: '봉투가 밀봉된 이후 문서가 변경되었습니다. 아무것도 서명되지 않았습니다.'
+      duplicate_signer: '이 주소는 이미 서명합니다.'
+
+bn:
+  field:
+    email:
+      label: ঠিকানা
+    name:
+      label: নাম
+  action:
+    submit: 'স্বাক্ষরকারী যোগ করুন'
+  error:
+    refused:
+      not_a_draft: 'এই খামটি সিল করা হয়েছে: এটি আর পরিবর্তিত হয় না।'
+      incomplete: 'একটি খাম অন্তত একটি ডকুমেন্ট এবং একটি স্বাক্ষরকারী সহ সিল করা হয়।'
+      not_pending: 'এই খামটি আর স্বাক্ষরের জন্য অপেক্ষা করছে না।'
+      already_done: 'আপনি ইতিমধ্যে স্বাক্ষর করেছেন বা অস্বীকার করেছেন।'
+      not_your_turn: 'আপনার আগে যে স্বাক্ষরকারীরা আছেন তারা এখনও স্বাক্ষর করেননি।'
+      tampered: 'একটি ডকুমেন্ট খাম সিল করার পর পরিবর্তিত হয়েছে। কিছু স্বাক্ষরিত হয়নি।'
+      duplicate_signer: 'এই ঠিকানা ইতিমধ্যে স্বাক্ষর করে।'
+
+th:
+  field:
+    email:
+      label: ที่อยู่
+    name:
+      label: ชื่อ
+  action:
+    submit: เพิ่มผู้ลงนาม
+  error:
+    refused:
+      not_a_draft: 'ซองนี้ถูกปิดผนึกแล้ว: ไม่มีการเปลี่ยนแปลงอีกต่อไป'
+      incomplete: ซองถูกปิดผนึกโดยมีเอกสารอย่างน้อยหนึ่งฉบับและผู้ลงนามอย่างน้อยหนึ่งคน
+      not_pending: ซองนี้ไม่รอการลงนามอีกต่อไป
+      already_done: คุณได้ลงนามหรือปฏิเสธไปแล้ว
+      not_your_turn: ผู้ลงนามก่อนหน้าคุณยังไม่ได้ลงนาม
+      tampered: 'มีเอกสารที่เปลี่ยนแปลงไปตั้งแต่ซองถูกปิดผนึก ไม่มีการลงนามใดๆ'
+      duplicate_signer: ที่อยู่นี้มีการลงนามแล้ว
+
+de:
+  field:
+    email:
+      label: Adresse
+    name:
+      label: Name
+  action:
+    submit: 'Unterzeichner hinzufügen'
+  error:
+    refused:
+      not_a_draft: 'Dieser Umschlag ist versiegelt: Er kann nicht mehr geändert werden.'
+      incomplete: 'Ein Umschlag ist mit mindestens einem Dokument und einem Unterzeichner versiegelt.'
+      not_pending: 'Dieser Umschlag wartet nicht mehr auf Unterschriften.'
+      already_done: 'Sie haben bereits unterschrieben oder abgelehnt.'
+      not_your_turn: 'Die Unterzeichner vor Ihnen haben noch nicht unterschrieben.'
+      tampered: 'Ein Dokument wurde geändert, seit der Umschlag versiegelt wurde. Es wurde nichts unterschrieben.'
+      duplicate_signer: 'Diese Adresse unterschreibt bereits.'
+
+fi:
+  field:
+    email:
+      label: Osoite
+    name:
+      label: Nimi
+  action:
+    submit: 'Lisää allekirjoittaja'
+  error:
+    refused:
+      not_a_draft: 'Tämä kuori on suljettu: se ei muutu enää.'
+      incomplete: 'Kuori on suljettu, jossa on vähintään yksi asiakirja ja yksi allekirjoittaja.'
+      not_pending: 'Tämä kuori ei enää odota allekirjoituksia.'
+      already_done: 'Olet jo allekirjoittanut tai kieltäytynyt.'
+      not_your_turn: 'Allekirjoittajat ennen sinua eivät ole vielä allekirjoittaneet.'
+      tampered: 'Asiakirjaa on muutettu sen jälkeen, kun kuori suljettiin. Mitään ei ole allekirjoitettu.'
+      duplicate_signer: 'Tämä osoite on jo allekirjoittamassa.'
+
+ru:
+  field:
+    email:
+      label: Адрес
+    name:
+      label: Имя
+  action:
+    submit: 'Добавить подписанта'
+  error:
+    refused:
+      not_a_draft: 'Этот конверт запечатан: изменения больше не вносятся.'
+      incomplete: 'Конверт запечатан с как минимум одним документом и одним подписантом.'
+      not_pending: 'Этот конверт больше не ожидает подписей.'
+      already_done: 'Вы уже подписали или отклонили.'
+      not_your_turn: 'Подписанты до вас еще не подписали.'
+      tampered: 'Документ изменен с тех пор, как конверт был запечатан. Ничего не было подписано.'
+      duplicate_signer: 'Этот адрес уже подписывает.'
+
+pl:
+  field:
+    email:
+      label: Adres
+    name:
+      label: Imię
+  action:
+    submit: 'Dodaj sygnatariusza'
+  error:
+    refused:
+      not_a_draft: 'Ta koperta jest zamknięta: nie można wprowadzać zmian.'
+      incomplete: 'Koperta jest zamknięta z co najmniej jednym dokumentem i jednym sygnatariuszem.'
+      not_pending: 'Ta koperta nie czeka już na podpisy.'
+      already_done: 'Już podpisałeś lub odmówiłeś.'
+      not_your_turn: 'Sygnatariusze przed Tobą jeszcze nie podpisali.'
+      tampered: 'Dokument został zmieniony od momentu zamknięcia koperty. Nic nie zostało podpisane.'
+      duplicate_signer: 'Ten adres już podpisuje.'
+
+es:
+  field:
+    email:
+      label: Dirección
+    name:
+      label: Nombre
+  action:
+    submit: 'Agregar el firmante'
+  error:
+    refused:
+      not_a_draft: 'Este sobre está sellado: ya no se puede modificar.'
+      incomplete: 'Un sobre está sellado con al menos un documento y un firmante.'
+      not_pending: 'Este sobre ya no espera firmas.'
+      already_done: 'Ya has firmado o declinado.'
+      not_your_turn: 'Los firmantes antes que tú aún no han firmado.'
+      tampered: 'Un documento fue cambiado desde que el sobre fue sellado. Nada fue firmado.'
+      duplicate_signer: 'Esta dirección ya firma.'
+
+it:
+  field:
+    email:
+      label: Indirizzo
+    name:
+      label: Nome
+  action:
+    submit: 'Aggiungi il firmatario'
+  error:
+    refused:
+      not_a_draft: 'Questa busta è sigillata: non è più modificabile.'
+      incomplete: 'Una busta è sigillata con almeno un documento e un firmatario.'
+      not_pending: 'Questa busta non attende più firme.'
+      already_done: 'Hai già firmato o rifiutato.'
+      not_your_turn: 'I firmatari prima di te non hanno ancora firmato.'
+      tampered: 'Un documento è stato modificato da quando la busta è stata sigillata. Nulla è stato firmato.'
+      duplicate_signer: 'Questo indirizzo è già firmato.'
+
+pt_BR:
+  field:
+    email:
+      label: Endereço
+    name:
+      label: Nome
+  action:
+    submit: 'Adicionar o signatário'
+  error:
+    refused:
+      not_a_draft: 'Este envelope está selado: não pode mais ser alterado.'
+      incomplete: 'Um envelope está selado com pelo menos um documento e um signatário.'
+      not_pending: 'Este envelope não está mais aguardando assinaturas.'
+      already_done: 'Você já assinou ou recusou.'
+      not_your_turn: 'Os signatários antes de você ainda não assinaram.'
+      tampered: 'Um documento foi alterado desde que o envelope foi selado. Nada foi assinado.'
+      duplicate_signer: 'Este endereço já assina.'
+
+tr:
+  field:
+    email:
+      label: Adres
+    name:
+      label: İsim
+  action:
+    submit: 'İmzacıyı ekle'
+  error:
+    refused:
+      not_a_draft: 'Bu zarf kapatıldı: artık değiştirilemez.'
+      incomplete: 'Bir zarf en az bir belge ve bir imzacı ile kapatılmıştır.'
+      not_pending: 'Bu zarf artık imzaları beklemiyor.'
+      already_done: 'Zaten imzaladınız veya reddettiniz.'
+      not_your_turn: 'Sizden önceki imzacılar henüz imzalamadı.'
+      tampered: 'Zarf kapatıldığından beri bir belge değişti. Hiçbir şey imzalanmadı.'
+      duplicate_signer: 'Bu adres zaten imza atıyor.'
+
+vi:
+  field:
+    email:
+      label: 'Địa chỉ'
+    name:
+      label: Tên
+  action:
+    submit: 'Thêm người ký'
+  error:
+    refused:
+      not_a_draft: 'Bì thư này đã được niêm phong: nó không còn thay đổi nữa.'
+      incomplete: 'Một bì thư đã được niêm phong với ít nhất một tài liệu và một người ký.'
+      not_pending: 'Bì thư này không còn chờ chữ ký nữa.'
+      already_done: 'Bạn đã ký hoặc từ chối rồi.'
+      not_your_turn: 'Các người ký trước bạn chưa ký.'
+      tampered: 'Một tài liệu đã thay đổi kể từ khi bì thư được niêm phong. Không có gì được ký.'
+      duplicate_signer: 'Địa chỉ này đã ký rồi.'
+
+id:
+  field:
+    email:
+      label: Alamat
+    name:
+      label: Nama
+  action:
+    submit: 'Tambahkan penandatangan'
+  error:
+    refused:
+      not_a_draft: 'Amplop ini sudah disegel: tidak dapat diubah lagi.'
+      incomplete: 'Sebuah amplop disegel dengan setidaknya satu dokumen dan satu penandatangan.'
+      not_pending: 'Amplop ini tidak lagi menunggu tanda tangan.'
+      already_done: 'Anda sudah menandatangani atau menolak.'
+      not_your_turn: 'Penandatangan sebelum Anda belum menandatangani.'
+      tampered: 'Sebuah dokumen telah diubah sejak amplop disegel. Tidak ada yang ditandatangani.'
+      duplicate_signer: 'Alamat ini sudah menandatangani.'
+
+nl:
+  field:
+    email:
+      label: Adres
+    name:
+      label: Naam
+  action:
+    submit: 'Voeg de ondertekenaar toe'
+  error:
+    refused:
+      not_a_draft: 'Deze envelop is verzegeld: deze kan niet meer worden gewijzigd.'
+      incomplete: 'Een envelop is verzegeld met ten minste één document en één ondertekenaar.'
+      not_pending: 'Deze envelop wacht niet meer op handtekeningen.'
+      already_done: 'Je hebt al ondertekend of afgewezen.'
+      not_your_turn: 'De ondertekenaars voor jou hebben nog niet getekend.'
+      tampered: 'Een document is gewijzigd sinds de envelop werd verzegeld. Er is niets ondertekend.'
+      duplicate_signer: 'Dit adres ondertekent al.'
