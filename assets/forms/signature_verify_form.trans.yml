@@ -11,3 +11,10 @@ fr:
       label: Un fichier
   action:
     submit: Le chercher
+
+zh:
+  field:
+    file:
+      label: 一个文件
+  action:
+    submit: 查找它

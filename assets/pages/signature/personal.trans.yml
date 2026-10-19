@@ -9,3 +9,9 @@ fr:
   page_icon: ph:bold/signature
   intro: L'image avec laquelle vous signez par défaut. Déposez-la dans votre médiathèque, recadrez-la là, puis choisissez-la ici.
   current: Ma signature actuelle
+
+zh:
+  page_title: 我的签名
+  page_icon: 'ph:bold/signature'
+  intro: 您默认使用的签名图像。将其上传到您的媒体库，在那里裁剪，然后在这里选择。
+  current: 我当前的签名

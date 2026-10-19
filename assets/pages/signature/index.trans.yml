@@ -61,3 +61,35 @@ fr:
     declined: A refusé
     awaited: Attendu
     waiting: Attend son tour
+
+zh:
+  page_title: 签名
+  page_icon: 'ph:bold/signature'
+  create: 新建信封
+  tab:
+    envelopes: 信封
+    verify: 验证文件
+    personal: 我的签名
+  to_sign:
+    title: 待签名
+    empty: 没有待签署的内容。
+  sent:
+    title: 已发送
+    empty: 您尚未发送任何信封。
+  column:
+    envelope: 信封
+    status: 状态
+    signed: 已签署
+    date: 创建时间
+  status:
+    draft: 草稿
+    pending: 等待签名
+    completed: 所有人已签署
+    declined: 已拒绝
+    cancelled: 已取消
+    expired: 已过期
+  signer:
+    signed: 已签署
+    declined: 已拒绝
+    awaited: 等待中
+    waiting: 等待轮到它

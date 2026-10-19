@@ -23,3 +23,16 @@ fr:
   sign: Signer
   decline: Refuser
   my_signature: Ma signature
+
+zh:
+  page_title: 签名
+  page_icon: 'ph:bold/pen-nib'
+  intro: 您的签名被请求：%title%。请阅读文件，然后签署或拒绝。
+  signed: 您已签名。谢谢。
+  declined: 您拒绝签名。
+  not_yet: 您之前的签署人尚未签名；等到轮到您时会通知您。
+  closed: 此信封不再等待签名。
+  documents: 文件
+  sign: 签署
+  decline: 拒绝
+  my_signature: 我的签名

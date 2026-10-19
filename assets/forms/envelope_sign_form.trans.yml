@@ -39,3 +39,24 @@ fr:
       not_your_turn: Les signataires avant vous n'ont pas encore signé.
       tampered: Un document a changé depuis le scellement. Rien n'a été signé.
       duplicate_signer: Cette adresse signe déjà.
+
+zh:
+  field:
+    use_personal:
+      label: 用我的签名签署
+    image:
+      label: 或我的签名图片
+      help: 'PNG、JPEG或WebP，最多2 MB。可选。'
+    agree:
+      label: 我已阅读文件并签署
+  action:
+    submit: 签署
+  error:
+    refused:
+      not_a_draft: 此信封已封存：无法再更改。
+      incomplete: 信封已封存，至少有一个文件和一个签署人。
+      not_pending: 此信封不再等待签名。
+      already_done: 您已经签署或拒绝过。
+      not_your_turn: 您前面的签署人尚未签署。
+      tampered: 自信封封存以来，文件已被更改。没有任何签署。
+      duplicate_signer: 此地址已签署。

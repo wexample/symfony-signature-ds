@@ -33,3 +33,21 @@ fr:
       not_your_turn: Les signataires avant vous n'ont pas encore signé.
       tampered: Un document a changé depuis le scellement. Rien n'a été signé.
       duplicate_signer: Cette adresse signe déjà.
+
+zh:
+  field:
+    email:
+      label: 地址
+    name:
+      label: 姓名
+  action:
+    submit: 添加签署人
+  error:
+    refused:
+      not_a_draft: 此信封已被封存：无法再进行更改。
+      incomplete: 信封已封存，至少包含一个文档和一个签署人。
+      not_pending: 此信封不再等待签名。
+      already_done: 您已经签署或拒绝了。
+      not_your_turn: 您之前的签署人尚未签名。
+      tampered: 自信封封存以来，文档已经更改。没有任何内容被签署。
+      duplicate_signer: 此地址已签署。

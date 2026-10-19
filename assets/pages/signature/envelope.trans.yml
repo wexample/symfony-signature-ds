@@ -79,3 +79,44 @@ fr:
     title: Vérification
     valid: Tout concorde — chaque document est le fichier scellé, chaque signature est dans la chaîne.
     invalid: Quelque chose ne concorde plus — un document ou une signature a changé depuis. Téléchargez la preuve pour le détail.
+
+zh:
+  page_title: 信封
+  page_icon: 'ph:bold/envelope-simple'
+  action:
+    seal: 封存并发送
+    seal_confirm: 已封存，文件和签署人不再更改，签署人被要求签名。
+    cancel: 取消
+    cancel_confirm: 签署人将无法再签名。
+    proof: 下载证明
+  done:
+    sealed: 已封存。签署人被要求签名。
+    cancelled: 已取消。
+    signer_removed: 签署人已移除。
+  field:
+    title: 标题
+    status: 状态
+    order: 顺序
+    sealed: 已封存
+    fingerprint: 指纹（签署内容的SHA-256）
+  order:
+    ordered: 一个接一个
+    any: 任何顺序
+  documents:
+    title: 文件
+    name: 文件
+  signers:
+    title: 签署人
+    empty: 尚无签署人。请在下方添加。
+    who: 签署人
+    kind: 签名
+    outside: 通过邮件发送的链接
+    account: 已登录
+    when: 签署于
+    timestamped: 由权威机构时间戳
+    sign: 签名
+    remove: 移除
+  verification:
+    title: 验证
+    valid: 一切正常——每个文件都是已封存的文件，每个签名都在链中。
+    invalid: 某些内容不再正常——某个文件或签名已更改。下载证明以获取详细信息。

@@ -17,3 +17,13 @@ fr:
   hidden: Une enveloppe dont vous ne faites pas partie
   name: Signé sous le nom
   sealed: Scellée le
+
+zh:
+  page_title: 验证文件
+  page_icon: 'ph:bold/seal-check'
+  intro: 这个文件是已经签名且未更改的吗？到达时会进行哈希处理，并根据其字节进行查找，无论其名称是什么；不会保存任何信息。
+  none: 没有签署的文件具有完全相同的字节——已更改或从未签署。
+  found: '已签名，未更改，在 %count% 个信封中。'
+  hidden: 您不属于的信封
+  name: 已签名为
+  sealed: 已密封于

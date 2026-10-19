@@ -7,3 +7,8 @@ fr:
   page_title: Nouvelle enveloppe
   page_icon: ph:bold/envelope-simple
   intro: Une enveloppe, c'est ce qui se signe ensemble. Choisissez ses documents dans la médiathèque ; vous ajoutez ensuite ses signataires, puis vous la scellez — son contenu est alors figé.
+
+zh:
+  page_title: 新信封
+  page_icon: 'ph:bold/envelope-simple'
+  intro: 信封是一起签署的东西。从媒体库中选择其文件；接下来添加签署人，然后封存——从那时起其内容将被冻结。

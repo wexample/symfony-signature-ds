@@ -21,3 +21,15 @@ fr:
       help: Chacun est sollicité une fois que le précédent a signé.
   action:
     submit: Créer l'enveloppe
+
+zh:
+  field:
+    title:
+      label: 标题
+    documents:
+      label: 文件
+    ordered:
+      label: 签署者按顺序签名
+      help: 每个人在前一个人签署后才会被请求签名。
+  action:
+    submit: 创建信封

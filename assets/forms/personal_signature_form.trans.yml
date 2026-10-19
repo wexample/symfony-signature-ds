@@ -15,3 +15,12 @@ fr:
     submit: Garder cette signature
   success:
     message: Signature enregistrée.
+
+zh:
+  field:
+    image:
+      label: 我的签名
+  action:
+    submit: 保存此签名
+  success:
+    message: 签名已保存。
