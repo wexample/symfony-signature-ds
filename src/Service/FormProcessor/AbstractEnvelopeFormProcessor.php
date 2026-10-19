@@ -51,6 +51,15 @@ abstract class AbstractEnvelopeFormProcessor extends AbstractFormProcessor
     }
 
     /**
+     * The envelope of the submission handled, not of the next visitor's.
+     */
+    public function reset(): void
+    {
+        parent::reset();
+        $this->target = null;
+    }
+
+    /**
      * @return class-string<T>
      */
     abstract protected function getTargetClass(): string;
