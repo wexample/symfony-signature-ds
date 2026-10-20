@@ -1,6 +1,6 @@
 # symfony-signature-ds
 
-Version: 3.0.0
+Version: 3.0.1
 
 Design-system screens for symfony-signature: composing an envelope, signing it — signed in or through a signed link —, following it, verifying a file, and one's own signature
 
@@ -29,7 +29,7 @@ The suite includes packages for configuration management, file handling, prompts
 - wexample/symfony-design-system: >=37.0.0
 - wexample/symfony-forms: >=13.0.0
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.1.0
+- wexample/symfony-loader: >=23.2.0
 
 ## Versioning & Compatibility Policy
 
