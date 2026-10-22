@@ -1,7 +1,7 @@
 {
   "name": "wexample/symfony-signature-ds",
   "description": "Design-system screens for symfony-signature: composing an envelope, signing it — signed in or through a signed link —, following it, verifying a file, and one's own signature",
-  "version": "3.0.4",
+  "version": "3.0.5",
   "type": "library",
   "license": "MIT",
   "autoload": {
@@ -17,12 +17,12 @@
   ],
   "require": {
     "php": ">=8.5",
-    "wexample/symfony-signature": ">=2.0.0",
-    "wexample/symfony-media-ds": ">=3.0.0",
-    "wexample/symfony-design-system": ">=39.0.0",
-    "wexample/symfony-forms": ">=14.0.0",
-    "wexample/symfony-helpers": ">=18.0.0",
-    "wexample/symfony-loader": ">=25.0.0"
+    "wexample/symfony-signature": ">=2.0.6",
+    "wexample/symfony-media-ds": ">=3.0.5",
+    "wexample/symfony-design-system": ">=39.0.3",
+    "wexample/symfony-forms": ">=14.0.2",
+    "wexample/symfony-helpers": ">=18.0.2",
+    "wexample/symfony-loader": ">=25.0.1"
   },
   "repositories": [
     {

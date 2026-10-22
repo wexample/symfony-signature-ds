@@ -1,64 +1,38 @@
 # symfony-signature-ds
 
-Version: 3.0.4
+Version: 3.0.5
 
 Design-system screens for symfony-signature: composing an envelope, signing it — signed in or through a signed link —, following it, verifying a file, and one's own signature
 
 ## Table of Contents
 
-- [Integration in the Suite](#integration-in-the-suite)
-- [Dependencies](#dependencies)
-- [Versioning & Compatibility Policy](#versioning--compatibility-policy)
-- [License](#license)
-- [About us](#about-us)
-- [Migration Notes](#migration-notes)
+- [Installation](#installation)
 
-## Integration in the Suite
+## Installation
 
-This package is part of the Wexample Suite — a collection of high-quality, modular tools designed to work seamlessly together across multiple languages and environments.
+```php
+// config/bundles.php
+Wexample\SymfonyMedia\WexampleSymfonyMediaBundle::class => ['all' => true],
+Wexample\SymfonyMediaDs\WexampleSymfonyMediaDsBundle::class => ['all' => true],
+Wexample\SymfonySignature\WexampleSymfonySignatureBundle::class => ['all' => true],
+Wexample\SymfonySignatureDs\WexampleSymfonySignatureDsBundle::class => ['all' => true],
+```
 
-### Related Packages
+The screens of symfony-signature, drawn with the design system.
 
-The suite includes packages for configuration management, file handling, prompts, and more. Each package can be used independently or as part of the integrated suite.
+| Route | Path | What |
+|---|---|---|
+| `signature_index` | `/signatures` | what awaits the account's signature, and what it sent |
+| `signature_create` | `/signatures/new` | a new envelope: title, documents picked in the media library, order |
+| `signature_envelope` | `/signatures/{id}` | one envelope: state, fingerprint, documents and their SHA-256, signers; while a draft, adding signers and sealing; pending, cancelling; sealed, its verification and its proof |
+| `signature_sign` | `/signatures/sign/{signer}` | where a signer reads the documents and signs or declines: signed in, or through the signed link of an outside signer |
+| `signature_document` | `/signatures/sign/{signer}/document/{document}` | a document, downloaded — signed for an outside signer |
+| `signature_envelope_proof` | `/signatures/{id}/proof` | the proof, as a JSON file |
+| `signature_verify` | `/signatures/verify` | a file, looked for by its bytes; open to anyone |
+| `signature_personal` | `/signatures/mine` | the image the account signs with by default, picked in its media library |
 
-## Dependencies
+Seal, cancel and remove a signer are buttons of the envelope's tabs, posted with the application's `submit` form token.
 
-- php: >=8.5
-- wexample/symfony-signature: >=2.0.0
-- wexample/symfony-media-ds: >=3.0.0
-- wexample/symfony-design-system: >=39.0.0
-- wexample/symfony-forms: >=14.0.0
-- wexample/symfony-helpers: >=18.0.0
-- wexample/symfony-loader: >=25.0.0
+An outside signer has no account: opening its signed link marks the session, and the forms of its page — posted elsewhere, without the link — check that mark. A signer signs with its own signature, or an image uploaded on the page, kept in the media library folder `Signatures`, or no image.
 
-## Versioning & Compatibility Policy
-
-Wexample packages follow **Semantic Versioning** (SemVer):
-
-- **MAJOR**: Breaking changes
-- **MINOR**: New features, backward compatible
-- **PATCH**: Bug fixes, backward compatible
-
-We maintain backward compatibility within major versions and provide clear migration guides for breaking changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Free to use in both personal and commercial projects.
-
-## About us
-
-[Wexample](https://wexample.com) stands as a cornerstone of the digital ecosystem — a collective of seasoned engineers, researchers, and creators driven by a relentless pursuit of technological excellence. More than a media platform, it has grown into a vibrant community where innovation meets craftsmanship, and where every line of code reflects a commitment to clarity, durability, and shared intelligence.
-
-This packages suite embodies this spirit. Trusted by professionals and enthusiasts alike, it delivers a consistent, high-quality foundation for modern development — open, elegant, and battle-tested. Its reputation is built on years of collaboration, refinement, and rigorous attention to detail, making it a natural choice for those who demand both robustness and beauty in their tools.
-
-Wexample cultivates a culture of mastery. Each package, each contribution carries the mark of a community that values precision, ethics, and innovation — a community proud to shape the future of digital craftsmanship.
-
-Built and maintained by [Romain Weeger](https://weeger.io).
-
-## Migration Notes
-
-When upgrading between major versions, refer to the migration guides in the documentation.
-
-Breaking changes are clearly documented with upgrade paths and examples.
+What one sees: an envelope, its sender and its account signers; a signing page, its account signed in or whoever holds the outside signer's link. Anyone else gets a 404.
