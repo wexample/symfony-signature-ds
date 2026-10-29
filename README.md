@@ -1,6 +1,6 @@
 # symfony-signature-ds
 
-Version: 3.0.10
+Version: 3.0.11
 
 Design-system screens for symfony-signature: composing an envelope, signing it — signed in or through a signed link —, following it, verifying a file, and one's own signature
 
