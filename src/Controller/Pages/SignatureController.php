@@ -50,6 +50,10 @@ final class SignatureController extends AbstractPagesController
 {
     use SymfonySignatureDsBundleClassTrait;
 
+    private const string MESSAGES_DONE = 'WexampleSymfonySignatureDsBundle.pages.signature.envelope::done.';
+
+    private const string MESSAGES_REFUSED = 'WexampleSymfonySignatureDsBundle.forms.envelope_signer_form::error.refused.';
+
     /** The application's form token id, declared stateless already. */
     public const string CSRF_TOKEN_ID = 'submit';
 
@@ -357,14 +361,27 @@ final class SignatureController extends AbstractPagesController
         }
     }
 
+    /**
+     * Runs an action on the envelope and goes back to it, what came of it said
+     * in a toast on the page reached — a flash, read once —, never in the
+     * address, where a reload or a shared link would say it again.
+     */
     private function act(Envelope $envelope, callable $action, string $done): RedirectResponse
     {
         try {
             $action();
+            $this->notify('success', self::MESSAGES_DONE.$done);
         } catch (SignatureException $exception) {
-            return $this->redirectToRoute(SignatureRoute::ENVELOPE, ['id' => (string) $envelope->getId(), 'refused' => $exception->refusal->value]);
+            $this->notify('warning', self::MESSAGES_REFUSED.$exception->refusal->value);
         }
 
-        return $this->redirectToRoute(SignatureRoute::ENVELOPE, ['id' => (string) $envelope->getId(), 'done' => $done]);
+        return $this->redirectToRoute(SignatureRoute::ENVELOPE, ['id' => (string) $envelope->getId()]);
+    }
+
+    private function notify(
+        string $type,
+        string $message
+    ): void {
+        $this->addFlash($type, ['type' => $type, 'message' => $message]);
     }
 }

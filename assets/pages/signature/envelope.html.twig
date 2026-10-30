@@ -20,12 +20,6 @@
     {%- endif -%}
     {{ signature.tabs(actions ?: null) }}
 
-    {%- if app.request.query.get('done') -%}
-        {{ message_success(('@page::done.' ~ app.request.query.get('done')) | trans) }}
-    {%- endif -%}
-    {%- if app.request.query.get('refused') -%}
-        {{ message_warning(('WexampleSymfonySignatureDsBundle.forms.envelope_signer_form::error.refused.' ~ app.request.query.get('refused')) | trans) }}
-    {%- endif -%}
 
     <section class="block block--padded">
         {{ properties([
